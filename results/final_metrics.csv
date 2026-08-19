@@ -1,0 +1,20 @@
+metric,value,scope_note
+dense_hit_at_1,0.6,Frozen 10-question supported benchmark
+dense_hit_at_3,0.8,Frozen 10-question supported benchmark
+dense_hit_at_10,0.9,Frozen 10-question supported benchmark
+dense_mrr_at_10,0.725,Frozen 10-question supported benchmark
+hybrid_hit_at_1,0.9,Dense + BM25 + RRF; same frozen benchmark
+hybrid_hit_at_3,1.0,Dense + BM25 + RRF; same frozen benchmark
+hybrid_hit_at_10,1.0,Dense + BM25 + RRF; same frozen benchmark
+hybrid_mrr_at_10,0.95,Dense + BM25 + RRF; same frozen benchmark
+supported_answer_rate,0.8,8/10 answerable questions answered
+false_refusal_rate,0.2,2/10 answerable questions refused
+unsupported_refusal_rate,1.0,5/5 unsupported/adversarial questions refused
+structure_validity_rate,1.0,15/15 final evaluation outputs
+claim_citation_coverage,1.0,Automated coverage among generated claims
+expected_page_citation_hit,1.0,Among answered supported questions
+invalid_source_answer_rate,0.0,No invalid generated source IDs
+overall_correct_system_behavior,0.867,13/15 by automated behavior definition
+manual_unique_claim_fully_supported,0.8461538461538461,11 of 13 unique generated claims
+manual_unique_claim_partially_supported,0.15384615384615385,2 of 13 unique generated claims
+manual_unique_claim_unsupported,0.0,0 of 13 unique generated claims
