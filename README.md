@@ -2,7 +2,7 @@
 
 ## Evidence release — 2026-10-09
 
-[883-question FinQA results](results/finqa_retrieval/summary.json) · [Per-question comparisons](results/finqa_retrieval/per_question.csv) · [Numerical controls](results/financial_controls.json) · [CI reproduction](https://github.com/Prasanna-K-123/enterprise-genai-rag-responsible-ai/actions/runs/37962499556)
+[883-question FinQA results](results/finqa_retrieval/summary.json) · [Per-question comparisons](results/finqa_retrieval/per_question.csv) · [Numerical controls](results/financial_controls.json) · [CI reproduction](https://github.com/Prasanna-K-123/enterprise-genai-rag-responsible-ai/actions/runs/37966606959) · [Data attribution](THIRD_PARTY_NOTICES.md)
 
 Three retrievers were evaluated on the pinned published development split. TF-IDF recovered all labelled evidence in top three for 61.38%, BM25 for 57.98%, and RRF for 58.89%. The paired RRF-minus-BM25 95% interval is [-0.57, +2.27] percentage points. No hybrid-superiority or end-to-end QA accuracy claim follows. The numerical tool layer separately passes 33 reconciliations and 7 unsupported-request controls.
 
