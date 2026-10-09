@@ -1,0 +1,6 @@
+{
+  "numerical_reconciliations": 33,
+  "unsupported_request_rejections": 7,
+  "all_controls_passed": true,
+  "scope": "Deterministic numerical controls, not LLM semantic accuracy or FinQA answer accuracy."
+}
