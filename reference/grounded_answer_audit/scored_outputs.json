@@ -1,0 +1,5709 @@
+[
+  {
+    "id": "ETR/2011/page_17.pdf-2",
+    "page_group": "ETR/2011/page_17.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2011
+      ],
+      "base_period": 2011,
+      "target_period": 2011,
+      "output_unit": "number",
+      "question": "what is the total amount of variance that favorably affected net revenue in 2011?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 86.0,
+      "half_last_displayed_digit": 0.5,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 134,
+        "output_unit": "number",
+        "execution_value": 134,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": -147.0,
+        "output_unit": "number",
+        "execution_value": -147.0,
+        "expression": "(r2c1 + r3c1 + r4c1 + r5c1 + r6c1 + r7c1 + r8c1)",
+        "dimension": "report:mark-to-market tax settlement sharing",
+        "refs": [
+          "r2c1",
+          "r3c1",
+          "r4c1",
+          "r5c1",
+          "r6c1",
+          "r7c1",
+          "r8c1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r2c1",
+            "raw": "-196 ( 196 )",
+            "value": -196.0,
+            "row": "mark-to-market tax settlement sharing",
+            "column": "amount ( in millions )",
+            "periods": [],
+            "entity": "ETR",
+            "dimension": "report:mark-to-market tax settlement sharing",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 2,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r3c1",
+            "raw": "-21 ( 21 )",
+            "value": -21.0,
+            "row": "purchased power capacity",
+            "column": "amount ( in millions )",
+            "periods": [],
+            "entity": "ETR",
+            "dimension": "report:purchased power capacity",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 3,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r4c1",
+            "raw": "-14 ( 14 )",
+            "value": -14.0,
+            "row": "net wholesale revenue",
+            "column": "amount ( in millions )",
+            "periods": [],
+            "entity": "ETR",
+            "dimension": "report:net wholesale revenue",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 4,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r5c1",
+            "raw": "13",
+            "value": 13.0,
+            "row": "volume/weather",
+            "column": "amount ( in millions )",
+            "periods": [],
+            "entity": "ETR",
+            "dimension": "report:volume/weather",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 5,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r6c1",
+            "raw": "24",
+            "value": 24.0,
+            "row": "ano decommissioning trust",
+            "column": "amount ( in millions )",
+            "periods": [],
+            "entity": "ETR",
+            "dimension": "report:ano decommissioning trust",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 6,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r7c1",
+            "raw": "49",
+            "value": 49.0,
+            "row": "retail electric price",
+            "column": "amount ( in millions )",
+            "periods": [],
+            "entity": "ETR",
+            "dimension": "report:retail electric price",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 7,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r8c1",
+            "raw": "-2 ( 2 )",
+            "value": -2.0,
+            "row": "other",
+            "column": "amount ( in millions )",
+            "periods": [],
+            "entity": "ETR",
+            "dimension": "report:other",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 8,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unit_mismatch",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "MRO/2017/page_96.pdf-3",
+    "page_group": "MRO/2017/page_96.pdf",
+    "contract": {
+      "kind": "average",
+      "periods": [],
+      "base_period": null,
+      "target_period": null,
+      "output_unit": "percent",
+      "question": "what was the average initial health care trend rate for the three year period in%?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 8.08,
+      "half_last_displayed_digit": 0.005,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 8.08,
+        "output_unit": "percent",
+        "execution_value": 0.0808,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "duplicate_binding",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "duplicate_binding",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "measure_phrase_missing_or_ambiguous",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "BDX/2018/page_106.pdf-3",
+    "page_group": "BDX/2018/page_106.pdf",
+    "contract": {
+      "kind": "average",
+      "periods": [
+        2016,
+        2018
+      ],
+      "base_period": 2016,
+      "target_period": 2018,
+      "output_unit": "USDm",
+      "question": "what is the average of total other income from 2016-2018 , in millions?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 90.67,
+      "half_last_displayed_digit": 0.005,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 1254.0,
+        "output_unit": "USDm",
+        "execution_value": 1254.0,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "expression_depth",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "expression_depth",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": false,
+        "answer": 0.0010105,
+        "output_unit": "USDm",
+        "execution_value": 0.0010105,
+        "expression": "(r7c3+r7c1)/2",
+        "dimension": "currency:USD",
+        "refs": [
+          "r7c3",
+          "r7c1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r7c3",
+            "raw": "7",
+            "value": 7.0,
+            "row": "other",
+            "column": "2016",
+            "periods": [
+              2016
+            ],
+            "entity": "BDX",
+            "dimension": "currency:USD",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 7,
+              "column": 3
+            }
+          },
+          {
+            "ref": "r7c1",
+            "raw": "2014",
+            "value": 2014.0,
+            "row": "other",
+            "column": "2018",
+            "periods": [
+              2018
+            ],
+            "entity": "BDX",
+            "dimension": "currency:USD",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 7,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": true,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "HOLX/2009/page_127.pdf-4",
+    "page_group": "HOLX/2009/page_127.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [],
+      "base_period": null,
+      "target_period": null,
+      "output_unit": "number",
+      "question": "during the purchase , what was the per share value of the hologic common stock",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": null,
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 27.81,
+        "output_unit": "USD",
+        "execution_value": 27.81,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 27.81,
+        "output_unit": "USD",
+        "execution_value": 27.81,
+        "expression": "pre13n0",
+        "dimension": "currency:USD",
+        "refs": [
+          "pre13n0"
+        ],
+        "model_numeric_agreement": true,
+        "provenance": [
+          {
+            "ref": "pre13n0",
+            "raw": "$ 27.81",
+            "value": 27.81,
+            "row": "pre_text[13]",
+            "column": "",
+            "periods": [],
+            "entity": "HOLX",
+            "dimension": "currency:USD",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "text_span",
+              "section": "pre",
+              "paragraph": 13,
+              "start": 54,
+              "end": 62
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "JKHY/2017/page_26.pdf-3",
+    "page_group": "JKHY/2017/page_26.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2015
+      ],
+      "base_period": 2015,
+      "target_period": 2015,
+      "output_unit": "number",
+      "question": "what was the 2015 total return for the peer group?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 41.97,
+      "half_last_displayed_digit": 0.005,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 203.87,
+        "output_unit": "number",
+        "execution_value": 203.87,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 203.87,
+        "output_unit": "number",
+        "execution_value": 203.87,
+        "expression": "r2c4",
+        "dimension": "report:peer group",
+        "refs": [
+          "r2c4"
+        ],
+        "model_numeric_agreement": true,
+        "provenance": [
+          {
+            "ref": "r2c4",
+            "raw": "203.87",
+            "value": 203.87,
+            "row": "peer group",
+            "column": "2015",
+            "periods": [
+              2015
+            ],
+            "entity": "JKHY",
+            "dimension": "report:peer group",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 2,
+              "column": 4
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "TFX/2015/page_89.pdf-1",
+    "page_group": "TFX/2015/page_89.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2015
+      ],
+      "base_period": 2015,
+      "target_period": 2015,
+      "output_unit": "number",
+      "question": "what portion of the total 2015 restructuring programs is related to termination benefits?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 79.5,
+      "half_last_displayed_digit": 0.05,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 0.794,
+        "output_unit": "percent",
+        "execution_value": 0.007940000000000001,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 79.45748730964468,
+        "output_unit": "percent",
+        "execution_value": 0.7945748730964468,
+        "expression": "r1c1 / r1c5",
+        "dimension": "ratio",
+        "refs": [
+          "r1c1",
+          "r1c5"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r1c1",
+            "raw": "$ 5009",
+            "value": 5009.0,
+            "row": "2015 restructuring programs",
+            "column": "2015 termination benefits",
+            "periods": [
+              2015
+            ],
+            "entity": "TFX",
+            "dimension": "currency:USD",
+            "scale": 1000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r1c5",
+            "raw": "$ 6304",
+            "value": 6304.0,
+            "row": "2015 restructuring programs",
+            "column": "2015 total",
+            "periods": [
+              2015
+            ],
+            "entity": "TFX",
+            "dimension": "currency:USD",
+            "scale": 1000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 5
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": true,
+        "execution_correct": true
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "ILMN/2008/page_82.pdf-2",
+    "page_group": "ILMN/2008/page_82.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2011
+      ],
+      "base_period": 2011,
+      "target_period": 2011,
+      "output_unit": "number",
+      "question": "what was the value of the shares exercised in 2011",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 12281757.94,
+      "half_last_displayed_digit": 0.005,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": true,
+        "answer": null,
+        "output_unit": "number",
+        "execution_value": null,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "ABMD/2005/page_29.pdf-1",
+    "page_group": "ABMD/2005/page_29.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2005,
+        2006
+      ],
+      "base_period": 2005,
+      "target_period": 2006,
+      "output_unit": "number",
+      "question": "assuming the same rate of growth as in 2005 , what would the projected risk free interest rate be in 2006?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 5.38,
+      "half_last_displayed_digit": 0.005,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": true,
+        "answer": null,
+        "output_unit": "number",
+        "execution_value": null,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "ETFC/2012/page_43.pdf-1",
+    "page_group": "ETFC/2012/page_43.pdf",
+    "contract": {
+      "kind": "difference",
+      "periods": [
+        2011,
+        2012
+      ],
+      "base_period": 2011,
+      "target_period": 2012,
+      "output_unit": "USDm",
+      "question": "what was the change in otti between 2011 and 2012 , in millions?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 10.6,
+      "half_last_displayed_digit": 0.05,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": -10.6,
+        "output_unit": "USDm",
+        "execution_value": -10.6,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": -10.6,
+        "output_unit": "USDm",
+        "execution_value": -10.6,
+        "expression": "(r1c1 - r1c2)",
+        "dimension": "currency:USD",
+        "refs": [
+          "r1c1",
+          "r1c2"
+        ],
+        "model_numeric_agreement": true,
+        "provenance": [
+          {
+            "ref": "r1c1",
+            "raw": "$ -19.8 ( 19.8 )",
+            "value": -19.8,
+            "row": "other-than-temporary impairment ( 201cotti 201d )",
+            "column": "year ended december 31 2012",
+            "periods": [
+              2012
+            ],
+            "entity": "ETFC",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r1c2",
+            "raw": "$ -9.2 ( 9.2 )",
+            "value": -9.2,
+            "row": "other-than-temporary impairment ( 201cotti 201d )",
+            "column": "2011",
+            "periods": [
+              2011
+            ],
+            "entity": "ETFC",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 2
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "measure_phrase_missing_or_ambiguous",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "measure_phrase_missing_or_ambiguous",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "BDX/2018/page_106.pdf-2",
+    "page_group": "BDX/2018/page_106.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [],
+      "base_period": null,
+      "target_period": null,
+      "output_unit": "USDm",
+      "question": "what is the range of losses on undesignated foreign exchange derivatives , in millions?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 11.0,
+      "half_last_displayed_digit": 0.5,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": true,
+        "answer": null,
+        "output_unit": "number",
+        "execution_value": null,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "EMR/2017/page_78.pdf-1",
+    "page_group": "EMR/2017/page_78.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2017
+      ],
+      "base_period": 2017,
+      "target_period": 2017,
+      "output_unit": "number",
+      "question": "at the pace of 2017 how many years of issuance remain for the restricted stock plan for non-management directors?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 8.6,
+      "half_last_displayed_digit": 0.05,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": true,
+        "answer": null,
+        "output_unit": "number",
+        "execution_value": null,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "GS/2014/page_165.pdf-2",
+    "page_group": "GS/2014/page_165.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2014
+      ],
+      "base_period": 2014,
+      "target_period": 2014,
+      "output_unit": "USDm",
+      "question": "for the trust preferred securities , common beneficial interests and junior subordinated debt extinguished with a recognized gain , how much in millions was not recorded in the third quarter of 2014?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 19.0,
+      "half_last_displayed_digit": 0.5,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 289,
+        "output_unit": "USDm",
+        "execution_value": 289,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "inconsistent_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "inconsistent_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "MRO/2008/page_45.pdf-2",
+    "page_group": "MRO/2008/page_45.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2007
+      ],
+      "base_period": 2007,
+      "target_period": 2007,
+      "output_unit": "percent",
+      "question": "what percentage of pipeline barrels handled consisted of crude oil trunk lines in 2007?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 58.0,
+      "half_last_displayed_digit": 0.05,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 76.0,
+        "output_unit": "percent",
+        "execution_value": 0.76,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 58.040000000000006,
+        "output_unit": "percent",
+        "execution_value": 0.5804,
+        "expression": "r1c2 / r3c2",
+        "dimension": "report:crude oil trunk lines",
+        "refs": [
+          "r1c2",
+          "r3c2"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r1c2",
+            "raw": "1451",
+            "value": 1451.0,
+            "row": "crude oil trunk lines",
+            "column": "2007",
+            "periods": [
+              2007
+            ],
+            "entity": "MRO",
+            "dimension": "report:crude oil trunk lines",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 2
+            }
+          },
+          {
+            "ref": "r3c2",
+            "raw": "2500",
+            "value": 2500.0,
+            "row": "total",
+            "column": "2007",
+            "periods": [
+              2007
+            ],
+            "entity": "MRO",
+            "dimension": "report:total",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 3,
+              "column": 2
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": true,
+        "execution_correct": true
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unit_mismatch",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "GS/2015/page_188.pdf-3",
+    "page_group": "GS/2015/page_188.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2021
+      ],
+      "base_period": 2021,
+      "target_period": 2021,
+      "output_unit": "percent",
+      "question": "for future lease payments , what percent was due in 2021 and thereafter?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 45.0,
+      "half_last_displayed_digit": 0.5,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 83.33,
+        "output_unit": "percent",
+        "execution_value": 0.8332999999999999,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 4504.854368932039,
+        "output_unit": "percent",
+        "execution_value": 45.04854368932038,
+        "expression": "(r6c1/r7c1)*100",
+        "dimension": "ratio",
+        "refs": [
+          "r6c1",
+          "r7c1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r6c1",
+            "raw": "1160",
+            "value": 1160.0,
+            "row": "2021 - thereafter",
+            "column": "as of december 2015",
+            "periods": [
+              2015
+            ],
+            "entity": "GS",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 6,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r7c1",
+            "raw": "$ 2575",
+            "value": 2575.0,
+            "row": "total",
+            "column": "as of december 2015",
+            "periods": [
+              2015
+            ],
+            "entity": "GS",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 7,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "AMT/2014/page_149.pdf-1",
+    "page_group": "AMT/2014/page_149.pdf",
+    "contract": {
+      "kind": "difference",
+      "periods": [
+        2013,
+        2014
+      ],
+      "base_period": 2013,
+      "target_period": 2014,
+      "output_unit": "number",
+      "question": "was the change in asset impairment charges between 2014 and 2013 in us$ m?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": -4.7,
+      "half_last_displayed_digit": 0.05,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 11.2,
+        "output_unit": "USDm",
+        "execution_value": 11.2,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "inconsistent_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "inconsistent_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "measure_phrase_missing_or_ambiguous",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "GS/2017/page_86.pdf-3",
+    "page_group": "GS/2017/page_86.pdf",
+    "contract": {
+      "kind": "difference",
+      "periods": [
+        2016,
+        2017
+      ],
+      "base_period": 2016,
+      "target_period": 2017,
+      "output_unit": "USDm",
+      "question": "what was the change in millions in total supplementary leverage exposure between 2016 and 2017?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 70843.0,
+      "half_last_displayed_digit": 0.5,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 170843000000.0,
+        "output_unit": "USDm",
+        "execution_value": 170843000000.0,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 70843.0,
+        "output_unit": "USDm",
+        "execution_value": 70843.0,
+        "expression": "(r6c1 - r6c2)",
+        "dimension": "currency:USD",
+        "refs": [
+          "r6c1",
+          "r6c2"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r6c1",
+            "raw": "$ 1341016",
+            "value": 1341016.0,
+            "row": "total supplementary leverage exposure",
+            "column": "for the three months ended or as of december 2017",
+            "periods": [
+              2017
+            ],
+            "entity": "GS",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 6,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r6c2",
+            "raw": "$ 1270173",
+            "value": 1270173.0,
+            "row": "total supplementary leverage exposure",
+            "column": "for the three months ended or as of december 2016",
+            "periods": [
+              2016
+            ],
+            "entity": "GS",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 6,
+              "column": 2
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": true,
+        "execution_correct": true
+      },
+      "contract": {
+        "refused": false,
+        "answer": 70843.0,
+        "output_unit": "USDm",
+        "execution_value": 70843.0,
+        "expression": "(r6c1 - r6c2)",
+        "dimension": "currency:USD",
+        "refs": [
+          "r6c1",
+          "r6c2"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r6c1",
+            "raw": "$ 1341016",
+            "value": 1341016.0,
+            "row": "total supplementary leverage exposure",
+            "column": "for the three months ended or as of december 2017",
+            "periods": [
+              2017
+            ],
+            "entity": "GS",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 6,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r6c2",
+            "raw": "$ 1270173",
+            "value": 1270173.0,
+            "row": "total supplementary leverage exposure",
+            "column": "for the three months ended or as of december 2016",
+            "periods": [
+              2016
+            ],
+            "entity": "GS",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 6,
+              "column": 2
+            }
+          }
+        ],
+        "contract_checked": true,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": true,
+        "execution_correct": true
+      },
+      "deterministic": {
+        "refused": false,
+        "answer": 70843.0,
+        "output_unit": "USDm",
+        "execution_value": 70843.0,
+        "expression": "r6c1-r6c2",
+        "dimension": "currency:USD",
+        "refs": [
+          "r6c2",
+          "r6c1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r6c2",
+            "raw": "$ 1270173",
+            "value": 1270173.0,
+            "row": "total supplementary leverage exposure",
+            "column": "for the three months ended or as of december 2016",
+            "periods": [
+              2016
+            ],
+            "entity": "GS",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 6,
+              "column": 2
+            }
+          },
+          {
+            "ref": "r6c1",
+            "raw": "$ 1341016",
+            "value": 1341016.0,
+            "row": "total supplementary leverage exposure",
+            "column": "for the three months ended or as of december 2017",
+            "periods": [
+              2017
+            ],
+            "entity": "GS",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 6,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": true,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": true,
+        "execution_correct": true
+      }
+    }
+  },
+  {
+    "id": "FBHS/2017/page_83.pdf-2",
+    "page_group": "FBHS/2017/page_83.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [],
+      "base_period": null,
+      "target_period": null,
+      "output_unit": "percent",
+      "question": "what was the percentage change in the weighted average fair value on the date of the award of the common stock",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 10.6,
+      "half_last_displayed_digit": 0.05,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 12.0,
+        "output_unit": "percent",
+        "execution_value": 0.12,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 9.062500000000002,
+        "output_unit": "percent",
+        "execution_value": 0.09062500000000001,
+        "expression": "(r5c2 - r1c2)/r1c2",
+        "dimension": "ratio",
+        "refs": [
+          "r5c2",
+          "r1c2"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r5c2",
+            "raw": "$ 52.35",
+            "value": 52.35,
+            "row": "non-vestedat december 31 2017",
+            "column": "weighted-averagegrant-datefair value",
+            "periods": [
+              2017
+            ],
+            "entity": "FBHS",
+            "dimension": "currency:USD",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 5,
+              "column": 2
+            }
+          },
+          {
+            "ref": "r1c2",
+            "raw": "$ 48.00",
+            "value": 48.0,
+            "row": "non-vestedat december 31 2016",
+            "column": "weighted-averagegrant-datefair value",
+            "periods": [
+              2016
+            ],
+            "entity": "FBHS",
+            "dimension": "currency:USD",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 2
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "L/2009/page_84.pdf-2",
+    "page_group": "L/2009/page_84.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2007,
+        2008
+      ],
+      "base_period": 2007,
+      "target_period": 2008,
+      "output_unit": "number",
+      "question": "what is the return on investment for s&p500 from 2007 to 2008?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": -37.0,
+      "half_last_displayed_digit": 0.05,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": -25.0,
+        "output_unit": "percent",
+        "execution_value": -0.25,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": -37.000624219725346,
+        "output_unit": "percent",
+        "execution_value": -0.3700062421972535,
+        "expression": "(r2c5 - r2c4)/r2c4",
+        "dimension": "ratio",
+        "refs": [
+          "r2c5",
+          "r2c4"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r2c5",
+            "raw": "80.74",
+            "value": 80.74,
+            "row": "s&p 500 index",
+            "column": "2008",
+            "periods": [
+              2008
+            ],
+            "entity": "L",
+            "dimension": "report:s&p 500 index",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 2,
+              "column": 5
+            }
+          },
+          {
+            "ref": "r2c4",
+            "raw": "128.16",
+            "value": 128.16,
+            "row": "s&p 500 index",
+            "column": "2007",
+            "periods": [
+              2007
+            ],
+            "entity": "L",
+            "dimension": "report:s&p 500 index",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 2,
+              "column": 4
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": true,
+        "execution_correct": true
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "RCL/2012/page_75.pdf-1",
+    "page_group": "RCL/2012/page_75.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [],
+      "base_period": null,
+      "target_period": null,
+      "output_unit": "number",
+      "question": "assuming each continent has the same number of destinations , approximately how many destinations does each continent have?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 65.0,
+      "half_last_displayed_digit": 0.5,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 30.0,
+        "output_unit": "number",
+        "execution_value": 30.0,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "inconsistent_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "inconsistent_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "JPM/2014/page_70.pdf-2",
+    "page_group": "JPM/2014/page_70.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2014
+      ],
+      "base_period": 2014,
+      "target_period": 2014,
+      "output_unit": "percent",
+      "question": "what percentage of total net revenue was due to net interest income in 2014?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 46.0,
+      "half_last_displayed_digit": 0.5,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 46.32,
+        "output_unit": "percent",
+        "execution_value": 0.4632,
+        "display_correct": true,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 4.631813598004352e-05,
+        "output_unit": "percent",
+        "execution_value": 4.6318135980043523e-07,
+        "expression": "r10c1 / r11c1",
+        "dimension": "report:net interest income",
+        "refs": [
+          "r10c1",
+          "r11c1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r10c1",
+            "raw": "43634",
+            "value": 43634.0,
+            "row": "net interest income",
+            "column": "2014",
+            "periods": [
+              2014
+            ],
+            "entity": "JPM",
+            "dimension": "report:net interest income",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 10,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r11c1",
+            "raw": "$ 94205",
+            "value": 94205.0,
+            "row": "total net revenue",
+            "column": "2014",
+            "periods": [
+              2014
+            ],
+            "entity": "JPM",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 11,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unit_mismatch",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "GIS/2019/page_68.pdf-1",
+    "page_group": "GIS/2019/page_68.pdf",
+    "contract": {
+      "kind": "growth",
+      "periods": [
+        2017,
+        2018
+      ],
+      "base_period": 2017,
+      "target_period": 2018,
+      "output_unit": "number",
+      "question": "what is the sales growth rate from 2017 to 2018?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 1.7,
+      "half_last_displayed_digit": 0.005,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 2.27,
+        "output_unit": "percent",
+        "execution_value": 0.0227,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 1.6961884945358285,
+        "output_unit": "percent",
+        "execution_value": 0.016961884945358285,
+        "expression": "(r1c1 - r1c2)/r1c2",
+        "dimension": "ratio",
+        "refs": [
+          "r1c1",
+          "r1c2"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r1c1",
+            "raw": "$ 17057.4",
+            "value": 17057.4,
+            "row": "net sales",
+            "column": "unaudited fiscal year 2018",
+            "periods": [
+              2018
+            ],
+            "entity": "GIS",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r1c2",
+            "raw": "$ 16772.9",
+            "value": 16772.9,
+            "row": "net sales",
+            "column": "unaudited fiscal year 2017",
+            "periods": [
+              2017
+            ],
+            "entity": "GIS",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 2
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": true,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "measure_phrase_missing_or_ambiguous",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "measure_phrase_missing_or_ambiguous",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "ETR/2017/page_372.pdf-2",
+    "page_group": "ETR/2017/page_372.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2016,
+        2017
+      ],
+      "base_period": 2016,
+      "target_period": 2017,
+      "output_unit": "percent",
+      "question": "without the loss of in volume/weather , what percent increase would net revenue have experienced between 2016 and 2017?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 2.25,
+      "half_last_displayed_digit": 0.005,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": true,
+        "answer": null,
+        "output_unit": "number",
+        "execution_value": null,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "AMT/2003/page_102.pdf-1",
+    "page_group": "AMT/2003/page_102.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [],
+      "base_period": null,
+      "target_period": null,
+      "output_unit": "percent",
+      "question": "what portion of the redemption amount of 6.25% ( 6.25 % ) notes was in accrued interest?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 2.2,
+      "half_last_displayed_digit": 0.05,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 20.76,
+        "output_unit": "percent",
+        "execution_value": 0.2076,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 2.163136547994592,
+        "output_unit": "percent",
+        "execution_value": 0.02163136547994592,
+        "expression": "(pre8n1/pre8n0)",
+        "dimension": "ratio",
+        "refs": [
+          "pre8n1",
+          "pre8n0"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "pre8n1",
+            "raw": "$ 4.8",
+            "value": 4.8,
+            "row": "pre_text[8]",
+            "column": "",
+            "periods": [],
+            "entity": "AMT",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "text_span",
+              "section": "pre",
+              "paragraph": 8,
+              "start": 69,
+              "end": 75
+            }
+          },
+          {
+            "ref": "pre8n0",
+            "raw": "$ 221.9",
+            "value": 221.9,
+            "row": "pre_text[8]",
+            "column": "",
+            "periods": [],
+            "entity": "AMT",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "text_span",
+              "section": "pre",
+              "paragraph": 8,
+              "start": 41,
+              "end": 49
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": true,
+        "execution_correct": true
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "STT/2009/page_127.pdf-4",
+    "page_group": "STT/2009/page_127.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [],
+      "base_period": null,
+      "target_period": null,
+      "output_unit": "number",
+      "question": "what is the total value , in dollars , of the shares purchasable under the warrant?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 299999990.0,
+      "half_last_displayed_digit": 0.5,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 2000000000.0,
+        "output_unit": "USD",
+        "execution_value": 2000000000.0,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 2000000000.0,
+        "output_unit": "USD",
+        "execution_value": 2000000000.0,
+        "expression": "post10n5",
+        "dimension": "currency:USD",
+        "refs": [
+          "post10n5"
+        ],
+        "model_numeric_agreement": true,
+        "provenance": [
+          {
+            "ref": "post10n5",
+            "raw": "$ 2",
+            "value": 2.0,
+            "row": "post_text[10]",
+            "column": "",
+            "periods": [],
+            "entity": "STT",
+            "dimension": "currency:USD",
+            "scale": 1000000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "text_span",
+              "section": "post",
+              "paragraph": 10,
+              "start": 329,
+              "end": 333
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "FBHS/2017/page_22.pdf-2",
+    "page_group": "FBHS/2017/page_22.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [],
+      "base_period": null,
+      "target_period": null,
+      "output_unit": "USDm",
+      "question": "what was the amount of sales in that went to international markets in millions",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 792.5,
+      "half_last_displayed_digit": 0.05,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 792.79,
+        "output_unit": "USDm",
+        "execution_value": 792.79,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 4490.805,
+        "output_unit": "USDm",
+        "execution_value": 4490.805,
+        "expression": "(1 - post3n0) * r5c1",
+        "dimension": "currency:USD",
+        "refs": [
+          "post3n0",
+          "r5c1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "post3n0",
+            "raw": "15%",
+            "value": 0.15,
+            "row": "post_text[3]",
+            "column": "",
+            "periods": [
+              2017
+            ],
+            "entity": "FBHS",
+            "dimension": "ratio",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "text_span",
+              "section": "post",
+              "paragraph": 3,
+              "start": 14,
+              "end": 18
+            }
+          },
+          {
+            "ref": "r5c1",
+            "raw": "$ 5283.3",
+            "value": 5283.3,
+            "row": "total",
+            "column": "2017net sales ( in millions )",
+            "periods": [],
+            "entity": "FBHS",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 5,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "V/2008/page_180.pdf-2",
+    "page_group": "V/2008/page_180.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2009
+      ],
+      "base_period": 2009,
+      "target_period": 2009,
+      "output_unit": "number",
+      "question": "what portion of the total support incentives is expected to be paid in 2009?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 22.0,
+      "half_last_displayed_digit": 0.05,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 0.22,
+        "output_unit": "percent",
+        "execution_value": 0.0022,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 22.006472491909385,
+        "output_unit": "percent",
+        "execution_value": 0.22006472491909385,
+        "expression": "r1c1/r7c1",
+        "dimension": "ratio",
+        "refs": [
+          "r1c1",
+          "r7c1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r1c1",
+            "raw": "$ 1088",
+            "value": 1088.0,
+            "row": "2009",
+            "column": "volume and support incentives",
+            "periods": [
+              2009
+            ],
+            "entity": "V",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r7c1",
+            "raw": "$ 4944",
+            "value": 4944.0,
+            "row": "total",
+            "column": "volume and support incentives",
+            "periods": [],
+            "entity": "V",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 7,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": true,
+        "execution_correct": true
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "GS/2013/page_85.pdf-2",
+    "page_group": "GS/2013/page_85.pdf",
+    "contract": {
+      "kind": "average",
+      "periods": [
+        2012,
+        2013
+      ],
+      "base_period": 2012,
+      "target_period": 2013,
+      "output_unit": "USDbn",
+      "question": "as of december 2013 and december 2012 , what was the average fair value of the securities and certain overnight cash deposits included in gce , in billions?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 179.35,
+      "half_last_displayed_digit": 0.005,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 182.65,
+        "output_unit": "USDbn",
+        "execution_value": 182.65,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 182.65,
+        "output_unit": "USDbn",
+        "execution_value": 182.65,
+        "expression": "r3c1",
+        "dimension": "currency:USD",
+        "refs": [
+          "r3c1"
+        ],
+        "model_numeric_agreement": true,
+        "provenance": [
+          {
+            "ref": "r3c1",
+            "raw": "$ 182650",
+            "value": 182650.0,
+            "row": "total",
+            "column": "average for theyear ended december 2013",
+            "periods": [
+              2013
+            ],
+            "entity": "GS",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 3,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "period_mismatch",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "measure_phrase_missing_or_ambiguous",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "GS/2015/page_171.pdf-2",
+    "page_group": "GS/2015/page_171.pdf",
+    "contract": {
+      "kind": "growth",
+      "periods": [
+        2014,
+        2015
+      ],
+      "base_period": 2014,
+      "target_period": 2015,
+      "output_unit": "percent",
+      "question": "what was the percentage change in securities purchased under agreements to resell between 2014 and 2015?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": -5.0,
+      "half_last_displayed_digit": 0.5,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": -5.46,
+        "output_unit": "percent",
+        "execution_value": -0.0546,
+        "display_correct": true,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 5.49719395332114,
+        "output_unit": "percent",
+        "execution_value": 0.054971939533211396,
+        "expression": "(r1c2 - r1c1)/r1c2",
+        "dimension": "ratio",
+        "refs": [
+          "r1c1",
+          "r1c2"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r1c1",
+            "raw": "$ 120905",
+            "value": 120905.0,
+            "row": "securities purchased under agreements to resell1",
+            "column": "as of december 2015",
+            "periods": [
+              2015
+            ],
+            "entity": "GS",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r1c2",
+            "raw": "$ 127938",
+            "value": 127938.0,
+            "row": "securities purchased under agreements to resell1",
+            "column": "as of december 2014",
+            "periods": [
+              2014
+            ],
+            "entity": "GS",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 2
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "measure_phrase_missing_or_ambiguous",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "measure_phrase_missing_or_ambiguous",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "DVN/2015/page_79.pdf-1",
+    "page_group": "DVN/2015/page_79.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2014
+      ],
+      "base_period": 2014,
+      "target_period": 2014,
+      "output_unit": "number",
+      "question": "what is the range of the 2014 grant-date fair value?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 3.06,
+      "half_last_displayed_digit": 0.005,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": true,
+        "answer": null,
+        "output_unit": "number",
+        "execution_value": null,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "C/2009/page_243.pdf-2",
+    "page_group": "C/2009/page_243.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2009
+      ],
+      "base_period": 2009,
+      "target_period": 2009,
+      "output_unit": "ratio",
+      "question": "at december 31 2009 what was the ratio of the aggregate cost to the fair value of the loans held-for-sale that are carried at locom",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 1.56,
+      "half_last_displayed_digit": 0.005,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 1.5625,
+        "output_unit": "ratio",
+        "execution_value": 1.5625,
+        "display_correct": true,
+        "execution_correct": true
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "inconsistent_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "inconsistent_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "DISCA/2014/page_64.pdf-1",
+    "page_group": "DISCA/2014/page_64.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2014
+      ],
+      "base_period": 2014,
+      "target_period": 2014,
+      "output_unit": "percent",
+      "question": "what was the percentage cumulative total shareholder return on disca common stock for the five year period ended december 31 , 2014?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 124.65,
+      "half_last_displayed_digit": 0.005,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": -28.57,
+        "output_unit": "percent",
+        "execution_value": -0.2857,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 124.65000000000002,
+        "output_unit": "percent",
+        "execution_value": 1.2465000000000002,
+        "expression": "(r1c6 - r1c1)/r1c1",
+        "dimension": "ratio",
+        "refs": [
+          "r1c6",
+          "r1c1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r1c6",
+            "raw": "$ 224.65",
+            "value": 224.65,
+            "row": "disca",
+            "column": "december 312014",
+            "periods": [],
+            "entity": "DISCA",
+            "dimension": "currency:USD",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 6
+            }
+          },
+          {
+            "ref": "r1c1",
+            "raw": "$ 100.00",
+            "value": 100.0,
+            "row": "disca",
+            "column": "december 312009",
+            "periods": [],
+            "entity": "DISCA",
+            "dimension": "currency:USD",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": true,
+        "execution_correct": true
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "STT/2006/page_95.pdf-1",
+    "page_group": "STT/2006/page_95.pdf",
+    "contract": {
+      "kind": "growth",
+      "periods": [
+        2005,
+        2006
+      ],
+      "base_period": 2005,
+      "target_period": 2006,
+      "output_unit": "percent",
+      "question": "what is the percentage change in total assets in unconsolidated conduits from 2005 to 2006?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 41.1,
+      "half_last_displayed_digit": 0.05,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 21.18,
+        "output_unit": "percent",
+        "execution_value": 0.2118,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 41.06145251396648,
+        "output_unit": "percent",
+        "execution_value": 0.4106145251396648,
+        "expression": "(pre1n3 - pre1n4)/pre1n4",
+        "dimension": "ratio",
+        "refs": [
+          "pre1n3",
+          "pre1n4"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "pre1n3",
+            "raw": "$ 25.25",
+            "value": 25.25,
+            "row": "pre_text[1]",
+            "column": "",
+            "periods": [
+              2005,
+              2006
+            ],
+            "entity": "STT",
+            "dimension": "currency:USD",
+            "scale": 1000000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "text_span",
+              "section": "pre",
+              "paragraph": 1,
+              "start": 78,
+              "end": 86
+            }
+          },
+          {
+            "ref": "pre1n4",
+            "raw": "$ 17.90",
+            "value": 17.9,
+            "row": "pre_text[1]",
+            "column": "",
+            "periods": [],
+            "entity": "STT",
+            "dimension": "currency:USD",
+            "scale": 1000000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "text_span",
+              "section": "pre",
+              "paragraph": 1,
+              "start": 98,
+              "end": 106
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": true,
+        "execution_correct": true
+      },
+      "contract": {
+        "refused": true,
+        "reason": "period_ambiguous_or_missing",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": false,
+        "answer": -3.0303030303030303,
+        "output_unit": "percent",
+        "execution_value": -0.030303030303030304,
+        "expression": "(r6c1-r6c2)/r6c2",
+        "dimension": "ratio",
+        "refs": [
+          "r6c2",
+          "r6c1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r6c2",
+            "raw": "$ -231 ( 231 )",
+            "value": -231.0,
+            "row": "total",
+            "column": "2005",
+            "periods": [
+              2005
+            ],
+            "entity": "STT",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 6,
+              "column": 2
+            }
+          },
+          {
+            "ref": "r6c1",
+            "raw": "$ -224 ( 224 )",
+            "value": -224.0,
+            "row": "total",
+            "column": "2006",
+            "periods": [
+              2006
+            ],
+            "entity": "STT",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 6,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": true,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "PNC/2012/page_65.pdf-4",
+    "page_group": "PNC/2012/page_65.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2012
+      ],
+      "base_period": 2012,
+      "target_period": 2012,
+      "output_unit": "number",
+      "question": "what would the fair value of total securities available for sale be without the fair value of securities classified as corporate stocks as of december 31 , 2012?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 61545.0,
+      "half_last_displayed_digit": 0.5,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 48568000000.0,
+        "output_unit": "USD",
+        "execution_value": 48568000000.0,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 50685000000.0,
+        "output_unit": "USD",
+        "execution_value": 50685000000.0,
+        "expression": "(r1c2 - post0n0)",
+        "dimension": "currency:USD",
+        "refs": [
+          "r1c2",
+          "post0n0"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r1c2",
+            "raw": "$ 51052",
+            "value": 51052.0,
+            "row": "total securities available for sale ( a )",
+            "column": "december 31 2012 fair value",
+            "periods": [
+              2012
+            ],
+            "entity": "PNC",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 2
+            }
+          },
+          {
+            "ref": "post0n0",
+            "raw": "$ 367",
+            "value": 367.0,
+            "row": "post_text[0]",
+            "column": "",
+            "periods": [],
+            "entity": "PNC",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "text_span",
+              "section": "post",
+              "paragraph": 0,
+              "start": 15,
+              "end": 21
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "AMT/2014/page_160.pdf-4",
+    "page_group": "AMT/2014/page_160.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2014,
+        2015
+      ],
+      "base_period": 2014,
+      "target_period": 2015,
+      "output_unit": "number",
+      "question": "was 2014 rent expense greater than 2015 operating lease expense?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": null,
+    "policies": {
+      "direct": {
+        "refused": true,
+        "answer": null,
+        "output_unit": "number",
+        "execution_value": null,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "PNC/2012/page_68.pdf-2",
+    "page_group": "PNC/2012/page_68.pdf",
+    "contract": {
+      "kind": "growth",
+      "periods": [
+        2008,
+        2009
+      ],
+      "base_period": 2008,
+      "target_period": 2009,
+      "output_unit": "percent",
+      "question": "what was the percentage change in the commercial mortgage loans designated for sale at fair value from 2008 to 2009",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": -8.4,
+      "half_last_displayed_digit": 0.05,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 14.34,
+        "output_unit": "percent",
+        "execution_value": 0.1434,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": -8.422301304863582,
+        "output_unit": "percent",
+        "execution_value": -0.08422301304863583,
+        "expression": "(r1c1 - r1c2)/r1c2",
+        "dimension": "ratio",
+        "refs": [
+          "r1c1",
+          "r1c2"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r1c1",
+            "raw": "$ 772",
+            "value": 772.0,
+            "row": "commercial mortgages at fair value",
+            "column": "december 312012",
+            "periods": [],
+            "entity": "PNC",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r1c2",
+            "raw": "$ 843",
+            "value": 843.0,
+            "row": "commercial mortgages at fair value",
+            "column": "december 312011",
+            "periods": [],
+            "entity": "PNC",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 2
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": true,
+        "execution_correct": true
+      },
+      "contract": {
+        "refused": true,
+        "reason": "period_ambiguous_or_missing",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "measure_phrase_missing_or_ambiguous",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "SYY/2006/page_71.pdf-2",
+    "page_group": "SYY/2006/page_71.pdf",
+    "contract": {
+      "kind": "growth",
+      "periods": [
+        2006,
+        2007
+      ],
+      "base_period": 2006,
+      "target_period": 2007,
+      "output_unit": "percent",
+      "question": "what was the percentage change in total rental expense under operating leases from july 1 , 2006 to july 2 , 2007?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 9.0,
+      "half_last_displayed_digit": 0.5,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": true,
+        "answer": null,
+        "output_unit": "number",
+        "execution_value": null,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "measure_phrase_missing_or_ambiguous",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "UNP/2009/page_35.pdf-2",
+    "page_group": "UNP/2009/page_35.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2008,
+        2009,
+        2010
+      ],
+      "base_period": 2008,
+      "target_period": 2010,
+      "output_unit": "ratio",
+      "question": "what will 2010 operating ratio be if the average 2009 and 2008 increases occur in 2009?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 77.7,
+      "half_last_displayed_digit": 0.05,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": true,
+        "answer": null,
+        "output_unit": "ratio",
+        "execution_value": null,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "GS/2017/page_132.pdf-4",
+    "page_group": "GS/2017/page_132.pdf",
+    "contract": {
+      "kind": "difference",
+      "periods": [
+        2016,
+        2017
+      ],
+      "base_period": 2016,
+      "target_period": 2017,
+      "output_unit": "USDm",
+      "question": "what was the change in level 3 financial assets from 2016 to 2017 in millions?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": -4079.0,
+      "half_last_displayed_digit": 0.5,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": -4080.0,
+        "output_unit": "USDm",
+        "execution_value": -4080.0,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 4079.0,
+        "output_unit": "USDm",
+        "execution_value": 4079.0,
+        "expression": "(r4c2 - r4c1)",
+        "dimension": "currency:USD",
+        "refs": [
+          "r4c2",
+          "r4c1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r4c2",
+            "raw": "$ 23280",
+            "value": 23280.0,
+            "row": "total",
+            "column": "as of december 2016",
+            "periods": [
+              2016
+            ],
+            "entity": "GS",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 4,
+              "column": 2
+            }
+          },
+          {
+            "ref": "r4c1",
+            "raw": "$ 19201",
+            "value": 19201.0,
+            "row": "total",
+            "column": "as of december 2017",
+            "periods": [
+              2017
+            ],
+            "entity": "GS",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 4,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "measure_phrase_missing_or_ambiguous",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "measure_phrase_missing_or_ambiguous",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "GPN/2018/page_94.pdf-1",
+    "page_group": "GPN/2018/page_94.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2017
+      ],
+      "base_period": 2017,
+      "target_period": 2017,
+      "output_unit": "number",
+      "question": "what was the value in thousands of unvested restricted stock and performance awards at the weighted-averagegrant-datefair value as of december 31 , 2017?\\\\n",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 95983.54,
+      "half_last_displayed_digit": 0.005,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 1226,
+        "output_unit": "number",
+        "execution_value": 1226,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 1226.0,
+        "output_unit": "number",
+        "execution_value": 1226.0,
+        "expression": "r13c1",
+        "dimension": "report:unvested at december 31 2017",
+        "refs": [
+          "r13c1"
+        ],
+        "model_numeric_agreement": true,
+        "provenance": [
+          {
+            "ref": "r13c1",
+            "raw": "1226",
+            "value": 1226.0,
+            "row": "unvested at december 31 2017",
+            "column": "shares ( in thousands )",
+            "periods": [
+              2017
+            ],
+            "entity": "GPN",
+            "dimension": "report:unvested at december 31 2017",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 13,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "UPS/2007/page_49.pdf-2",
+    "page_group": "UPS/2007/page_49.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2018
+      ],
+      "base_period": 2018,
+      "target_period": 2018,
+      "output_unit": "number",
+      "question": "what portion of total expected cash outflow for capital leases is due in 2018?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 17.4,
+      "half_last_displayed_digit": 0.05,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": true,
+        "answer": null,
+        "output_unit": "number",
+        "execution_value": null,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "MRO/2006/page_93.pdf-3",
+    "page_group": "MRO/2006/page_93.pdf",
+    "contract": {
+      "kind": "difference",
+      "periods": [
+        2004,
+        2005
+      ],
+      "base_period": 2004,
+      "target_period": 2005,
+      "output_unit": "percent",
+      "question": "by what percentage did total amount of the liability for asset retirement obligations increase from 2004 to 2005?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 34.9,
+      "half_last_displayed_digit": 0.05,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 24.23,
+        "output_unit": "percent",
+        "execution_value": 0.24230000000000002,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 34.9146110056926,
+        "output_unit": "percent",
+        "execution_value": 0.349146110056926,
+        "expression": "(r2c1 - r1c1)/r1c1",
+        "dimension": "ratio",
+        "refs": [
+          "r2c1",
+          "r1c1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r2c1",
+            "raw": "711",
+            "value": 711.0,
+            "row": "december 31 2005",
+            "column": "$ 438",
+            "periods": [
+              2005
+            ],
+            "entity": "MRO",
+            "dimension": "currency:USD",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 2,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r1c1",
+            "raw": "527",
+            "value": 527.0,
+            "row": "december 31 2004",
+            "column": "$ 438",
+            "periods": [
+              2004
+            ],
+            "entity": "MRO",
+            "dimension": "currency:USD",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": true,
+        "execution_correct": true
+      },
+      "contract": {
+        "refused": true,
+        "reason": "measure_mismatch: bounded contract requires one exact row/span label",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "measure_phrase_missing_or_ambiguous",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "JPM/2009/page_175.pdf-5",
+    "page_group": "JPM/2009/page_175.pdf",
+    "contract": {
+      "kind": "difference",
+      "periods": [
+        2007,
+        2008
+      ],
+      "base_period": 2007,
+      "target_period": 2008,
+      "output_unit": "USDm",
+      "question": "what is the increase of the total trading assets between the years 2007 and 2008 , in millions of dollars?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 58665.0,
+      "half_last_displayed_digit": 0.5,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 12697000000.0,
+        "output_unit": "USDm",
+        "execution_value": 12697000000.0,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 2687.08398,
+        "output_unit": "USDm",
+        "execution_value": 2687.08398,
+        "expression": "(r1c2 + r2c2 + r4c2 - r1c3 - r2c3 - r4c3)",
+        "dimension": "currency:USD",
+        "refs": [
+          "r1c2",
+          "r2c2",
+          "r4c2",
+          "r1c3",
+          "r2c3",
+          "r4c3"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r1c2",
+            "raw": "$ 384102",
+            "value": 384102.0,
+            "row": "trading assets 2013 debt and equity instruments",
+            "column": "2008",
+            "periods": [
+              2008
+            ],
+            "entity": "JPM",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 2
+            }
+          },
+          {
+            "ref": "r2c2",
+            "raw": "121417",
+            "value": 121417.0,
+            "row": "trading assets 2013 derivative receivables",
+            "column": "2008",
+            "periods": [
+              2008
+            ],
+            "entity": "JPM",
+            "dimension": "report:trading assets 2013 derivative receivables",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 2,
+              "column": 2
+            }
+          },
+          {
+            "ref": "r4c2",
+            "raw": "93200",
+            "value": 93200.0,
+            "row": "trading liabilities 2013 derivative payables",
+            "column": "2008",
+            "periods": [
+              2008
+            ],
+            "entity": "JPM",
+            "dimension": "report:trading liabilities 2013 derivative payables",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 4,
+              "column": 2
+            }
+          },
+          {
+            "ref": "r1c3",
+            "raw": "$ 381415",
+            "value": 381415.0,
+            "row": "trading assets 2013 debt and equity instruments",
+            "column": "2007",
+            "periods": [
+              2007
+            ],
+            "entity": "JPM",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 3
+            }
+          },
+          {
+            "ref": "r2c3",
+            "raw": "65439",
+            "value": 65439.0,
+            "row": "trading assets 2013 derivative receivables",
+            "column": "2007",
+            "periods": [
+              2007
+            ],
+            "entity": "JPM",
+            "dimension": "report:trading assets 2013 derivative receivables",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 2,
+              "column": 3
+            }
+          },
+          {
+            "ref": "r4c3",
+            "raw": "65198",
+            "value": 65198.0,
+            "row": "trading liabilities 2013 derivative payables",
+            "column": "2007",
+            "periods": [
+              2007
+            ],
+            "entity": "JPM",
+            "dimension": "report:trading liabilities 2013 derivative payables",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 4,
+              "column": 3
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unit_mismatch",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "measure_phrase_missing_or_ambiguous",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "HII/2015/page_121.pdf-3",
+    "page_group": "HII/2015/page_121.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [],
+      "base_period": null,
+      "target_period": null,
+      "output_unit": "USDm",
+      "question": "what was the total sales as of december 312014 in millions",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 6957.0,
+      "half_last_displayed_digit": 0.5,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 312000000.0,
+        "output_unit": "USDm",
+        "execution_value": 312000000.0,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "inconsistent_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "inconsistent_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "UAA/2016/page_42.pdf-2",
+    "page_group": "UAA/2016/page_42.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [],
+      "base_period": null,
+      "target_period": null,
+      "output_unit": "ratio",
+      "question": "what is the debt-to-asset ratio?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 22.4,
+      "half_last_displayed_digit": 0.05,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 0.224,
+        "output_unit": "ratio",
+        "execution_value": 0.224,
+        "display_correct": true,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 0.22429027440152938,
+        "output_unit": "ratio",
+        "execution_value": 0.22429027440152938,
+        "expression": "r5c1/r4c1",
+        "dimension": "report:total debt including current maturities",
+        "refs": [
+          "r5c1",
+          "r4c1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r5c1",
+            "raw": "817388",
+            "value": 817388.0,
+            "row": "total debt including current maturities",
+            "column": "at december 31 , 2016",
+            "periods": [
+              2016
+            ],
+            "entity": "UAA",
+            "dimension": "report:total debt including current maturities",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 5,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r4c1",
+            "raw": "3644331",
+            "value": 3644331.0,
+            "row": "total assets",
+            "column": "at december 31 , 2016",
+            "periods": [
+              2016
+            ],
+            "entity": "UAA",
+            "dimension": "report:total assets",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 4,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": true,
+        "execution_correct": true
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unit_mismatch",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "SLB/2012/page_56.pdf-1",
+    "page_group": "SLB/2012/page_56.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2012
+      ],
+      "base_period": 2012,
+      "target_period": 2012,
+      "output_unit": "USDm",
+      "question": "what would the 2012 shares outstanding in millions have been without the acquisition of smith international?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 1152.0,
+      "half_last_displayed_digit": 0.5,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 1328.0,
+        "output_unit": "USDm",
+        "execution_value": 1328.0,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 1328.0,
+        "output_unit": "USDm",
+        "execution_value": 1328.0,
+        "expression": "r16c3",
+        "dimension": "report:balance december 31 2012",
+        "refs": [
+          "r16c3"
+        ],
+        "model_numeric_agreement": true,
+        "provenance": [
+          {
+            "ref": "r16c3",
+            "raw": "1328",
+            "value": 1328.0,
+            "row": "balance december 31 2012",
+            "column": "shares outstanding",
+            "periods": [
+              2012
+            ],
+            "entity": "SLB",
+            "dimension": "report:balance december 31 2012",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 16,
+              "column": 3
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "MRO/2013/page_39.pdf-1",
+    "page_group": "MRO/2013/page_39.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2012,
+        2013
+      ],
+      "base_period": 2012,
+      "target_period": 2013,
+      "output_unit": "percent",
+      "question": "in 2013 , was the percentage of our u.s . crude oil and condensate production that was sweet higher than 2012 ?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": null,
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 76,
+        "output_unit": "percent",
+        "execution_value": 0.76,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 7600.0,
+        "output_unit": "percent",
+        "execution_value": 76.0,
+        "expression": "post5n0",
+        "dimension": "report:post_text[5]",
+        "refs": [
+          "post5n0"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "post5n0",
+            "raw": "76",
+            "value": 76.0,
+            "row": "post_text[5]",
+            "column": "",
+            "periods": [
+              2011,
+              2012
+            ],
+            "entity": "MRO",
+            "dimension": "report:post_text[5]",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "text_span",
+              "section": "post",
+              "paragraph": 5,
+              "start": 60,
+              "end": 63
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "DRE/2008/page_46.pdf-4",
+    "page_group": "DRE/2008/page_46.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2007,
+        2008
+      ],
+      "base_period": 2007,
+      "target_period": 2008,
+      "output_unit": "percent",
+      "question": "what was the percentage improvement in the unbilled receivables on construction contracts from 2007 to 2008",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": -31.47,
+      "half_last_displayed_digit": 0.005,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 19.3,
+        "output_unit": "percent",
+        "execution_value": 0.193,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 45.81497797356828,
+        "output_unit": "percent",
+        "execution_value": 0.4581497797356828,
+        "expression": "(pre3n1 - pre3n0)/pre3n0",
+        "dimension": "ratio",
+        "refs": [
+          "pre3n0",
+          "pre3n1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "pre3n0",
+            "raw": "$ 22.7",
+            "value": 22.7,
+            "row": "pre_text[3]",
+            "column": "",
+            "periods": [
+              2007,
+              2008
+            ],
+            "entity": "DRE",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "text_span",
+              "section": "pre",
+              "paragraph": 3,
+              "start": 55,
+              "end": 62
+            }
+          },
+          {
+            "ref": "pre3n1",
+            "raw": "$ 33.1",
+            "value": 33.1,
+            "row": "pre_text[3]",
+            "column": "",
+            "periods": [
+              2007,
+              2008
+            ],
+            "entity": "DRE",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "text_span",
+              "section": "pre",
+              "paragraph": 3,
+              "start": 74,
+              "end": 81
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "LKQ/2016/page_87.pdf-4",
+    "page_group": "LKQ/2016/page_87.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2016,
+        2019
+      ],
+      "base_period": 2016,
+      "target_period": 2019,
+      "output_unit": "percent",
+      "question": "in 2016 what was the percent of the total future minimum lease commitments due in 2019",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 11.5,
+      "half_last_displayed_digit": 0.05,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 0.115,
+        "output_unit": "percent",
+        "execution_value": 0.00115,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 9.29120019179567,
+        "output_unit": "percent",
+        "execution_value": 0.0929120019179567,
+        "expression": "r3c1/r6c1",
+        "dimension": "ratio",
+        "refs": [
+          "r3c1",
+          "r6c1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r3c1",
+            "raw": "110063",
+            "value": 110063.0,
+            "row": "2020",
+            "column": "$ 200450",
+            "periods": [
+              2020
+            ],
+            "entity": "LKQ",
+            "dimension": "currency:USD",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 3,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r6c1",
+            "raw": "$ 1184594",
+            "value": 1184594.0,
+            "row": "future minimum lease payments",
+            "column": "$ 200450",
+            "periods": [],
+            "entity": "LKQ",
+            "dimension": "currency:USD",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 6,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "HII/2015/page_121.pdf-1",
+    "page_group": "HII/2015/page_121.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2014
+      ],
+      "base_period": 2014,
+      "target_period": 2014,
+      "output_unit": "number",
+      "question": "what is the net income margin in the q1 of 2014?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 5.6,
+      "half_last_displayed_digit": 0.05,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 0.0566,
+        "output_unit": "percent",
+        "execution_value": 0.000566,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 5.646173149309912,
+        "output_unit": "percent",
+        "execution_value": 0.05646173149309912,
+        "expression": "(r4c1)/r1c1",
+        "dimension": "ratio",
+        "refs": [
+          "r4c1",
+          "r1c1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r4c1",
+            "raw": "90",
+            "value": 90.0,
+            "row": "net earnings ( loss )",
+            "column": "year ended december 31 2014 1st qtr",
+            "periods": [
+              2014
+            ],
+            "entity": "HII",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 4,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r1c1",
+            "raw": "$ 1594",
+            "value": 1594.0,
+            "row": "sales and service revenues",
+            "column": "year ended december 31 2014 1st qtr",
+            "periods": [
+              2014
+            ],
+            "entity": "HII",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": true,
+        "execution_correct": true
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "JPM/2010/page_281.pdf-2",
+    "page_group": "JPM/2010/page_281.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2009
+      ],
+      "base_period": 2009,
+      "target_period": 2009,
+      "output_unit": "percent",
+      "question": "as of december 31 , 2009 , what percentage of the collateral that it was able to sell , repledge , deliver , or otherwise use was actually used for these purposes?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 74.4,
+      "half_last_displayed_digit": 0.05,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 65.6,
+        "output_unit": "percent",
+        "execution_value": 0.6559999999999999,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "inconsistent_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "inconsistent_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "VRTX/2006/page_111.pdf-4",
+    "page_group": "VRTX/2006/page_111.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2005,
+        2006
+      ],
+      "base_period": 2005,
+      "target_period": 2006,
+      "output_unit": "ratio",
+      "question": "what was the ratio of the total property and equipment net in 2006 to 2005",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 1.13,
+      "half_last_displayed_digit": 0.005,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 1.128,
+        "output_unit": "ratio",
+        "execution_value": 1.128,
+        "display_correct": true,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 1.128399317844241,
+        "output_unit": "ratio",
+        "execution_value": 1.128399317844241,
+        "expression": "(r7c1/r7c2)",
+        "dimension": "ratio",
+        "refs": [
+          "r7c1",
+          "r7c2"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r7c1",
+            "raw": "$ 61535",
+            "value": 61535.0,
+            "row": "total property and equipment net",
+            "column": "2006",
+            "periods": [
+              2006
+            ],
+            "entity": "VRTX",
+            "dimension": "currency:USD",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 7,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r7c2",
+            "raw": "$ 54533",
+            "value": 54533.0,
+            "row": "total property and equipment net",
+            "column": "2005",
+            "periods": [
+              2005
+            ],
+            "entity": "VRTX",
+            "dimension": "currency:USD",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 7,
+              "column": 2
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": true,
+        "execution_correct": true
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "JPM/2003/page_106.pdf-2",
+    "page_group": "JPM/2003/page_106.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2003
+      ],
+      "base_period": 2003,
+      "target_period": 2003,
+      "output_unit": "ratio",
+      "question": "in 2003 what was the ratio of the structured commercial loan vehicles to credit-linked note vehicles",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 0.2994,
+      "half_last_displayed_digit": 5e-05,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 0.297,
+        "output_unit": "ratio",
+        "execution_value": 0.297,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 0.7361111111111112,
+        "output_unit": "ratio",
+        "execution_value": 0.7361111111111112,
+        "expression": "(post4n0/post4n3)",
+        "dimension": "ratio",
+        "refs": [
+          "post4n0",
+          "post4n3"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "post4n0",
+            "raw": "$ 5.3",
+            "value": 5.3,
+            "row": "post_text[4]",
+            "column": "",
+            "periods": [
+              2003
+            ],
+            "entity": "JPM",
+            "dimension": "currency:USD",
+            "scale": 1000000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "text_span",
+              "section": "post",
+              "paragraph": 4,
+              "start": 68,
+              "end": 74
+            }
+          },
+          {
+            "ref": "post4n3",
+            "raw": "$ 7.2",
+            "value": 7.2,
+            "row": "post_text[4]",
+            "column": "",
+            "periods": [
+              2002,
+              2003
+            ],
+            "entity": "JPM",
+            "dimension": "currency:USD",
+            "scale": 1000000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "text_span",
+              "section": "post",
+              "paragraph": 4,
+              "start": 113,
+              "end": 119
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "IP/2009/page_84.pdf-3",
+    "page_group": "IP/2009/page_84.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2009,
+        2012
+      ],
+      "base_period": 2009,
+      "target_period": 2012,
+      "output_unit": "percent",
+      "question": "at december 31 , 2009 , total future minimum commitments under existing non-cancelable leases and purchase obligations what was the percent of the lease obligations compared to the purchase obligations in 2012",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 16.6,
+      "half_last_displayed_digit": 0.05,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 0.033,
+        "output_unit": "percent",
+        "execution_value": 0.00033,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 100.0,
+        "output_unit": "percent",
+        "execution_value": 1.0,
+        "expression": "(r2c3/r2c3)",
+        "dimension": "ratio",
+        "refs": [
+          "r2c3"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r2c3",
+            "raw": "623",
+            "value": 623.0,
+            "row": "purchase obligations ( a )",
+            "column": "2012",
+            "periods": [
+              2012
+            ],
+            "entity": "IP",
+            "dimension": "report:purchase obligations ( a )",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 2,
+              "column": 3
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "MS/2013/page_132.pdf-2",
+    "page_group": "MS/2013/page_132.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2013,
+        2014
+      ],
+      "base_period": 2013,
+      "target_period": 2014,
+      "output_unit": "USDbn",
+      "question": "how much of the december 31 , 2013 201cevent- driven 201d loans and commitments will mature in 2014 , in billions?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 3.1,
+      "half_last_displayed_digit": 0.05,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 3.54,
+        "output_unit": "USDbn",
+        "execution_value": 3.54,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": -9.5,
+        "output_unit": "USDbn",
+        "execution_value": -9.5,
+        "expression": "(pre5n5+pre5n8+pre5n12+pre5n16)*pre3n4",
+        "dimension": "currency:USD",
+        "refs": [
+          "pre5n5",
+          "pre5n8",
+          "pre5n12",
+          "pre5n16",
+          "pre3n4"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "pre5n5",
+            "raw": "( 33 % )",
+            "value": -0.33,
+            "row": "pre_text[5]",
+            "column": "",
+            "periods": [
+              2013
+            ],
+            "entity": "MS",
+            "dimension": "ratio",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "text_span",
+              "section": "pre",
+              "paragraph": 5,
+              "start": 123,
+              "end": 131
+            }
+          },
+          {
+            "ref": "pre5n8",
+            "raw": "( 17 % )",
+            "value": -0.17,
+            "row": "pre_text[5]",
+            "column": "",
+            "periods": [],
+            "entity": "MS",
+            "dimension": "ratio",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "text_span",
+              "section": "pre",
+              "paragraph": 5,
+              "start": 170,
+              "end": 178
+            }
+          },
+          {
+            "ref": "pre5n12",
+            "raw": "( 32 % )",
+            "value": -0.32,
+            "row": "pre_text[5]",
+            "column": "",
+            "periods": [],
+            "entity": "MS",
+            "dimension": "ratio",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "text_span",
+              "section": "pre",
+              "paragraph": 5,
+              "start": 217,
+              "end": 225
+            }
+          },
+          {
+            "ref": "pre5n16",
+            "raw": "( 18 % )",
+            "value": -0.18,
+            "row": "pre_text[5]",
+            "column": "",
+            "periods": [],
+            "entity": "MS",
+            "dimension": "ratio",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "text_span",
+              "section": "pre",
+              "paragraph": 5,
+              "start": 266,
+              "end": 274
+            }
+          },
+          {
+            "ref": "pre3n4",
+            "raw": "$ 9.5",
+            "value": 9.5,
+            "row": "pre_text[3]",
+            "column": "",
+            "periods": [
+              2013
+            ],
+            "entity": "MS",
+            "dimension": "currency:USD",
+            "scale": 1000000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "text_span",
+              "section": "pre",
+              "paragraph": 3,
+              "start": 139,
+              "end": 145
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "RSG/2010/page_57.pdf-2",
+    "page_group": "RSG/2010/page_57.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2016,
+        2017
+      ],
+      "base_period": 2016,
+      "target_period": 2017,
+      "output_unit": "ratio",
+      "question": "what was the ratio of the remaining discount of the notes due in 2017 to 2016",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 1.33,
+      "half_last_displayed_digit": 0.005,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 0.31,
+        "output_unit": "ratio",
+        "execution_value": 0.31,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 1.245035778175313,
+        "output_unit": "ratio",
+        "execution_value": 1.245035778175313,
+        "expression": "(r4c1/r4c2)/(r3c1/r3c2)",
+        "dimension": "ratio",
+        "refs": [
+          "r4c1",
+          "r4c2",
+          "r3c1",
+          "r3c2"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r4c1",
+            "raw": "86.1",
+            "value": 86.1,
+            "row": "$ 750.0 million 6.875% ( 6.875 % ) senior notes due june 2017",
+            "column": "remaining discount",
+            "periods": [
+              2017
+            ],
+            "entity": "RSG",
+            "dimension": "report:$ 750.0 million 6.875% ( 6.875 % ) senior notes due june 2017",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 4,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r4c2",
+            "raw": "10.4",
+            "value": 10.4,
+            "row": "$ 750.0 million 6.875% ( 6.875 % ) senior notes due june 2017",
+            "column": "expected amortization over the next twelve months",
+            "periods": [
+              2017
+            ],
+            "entity": "RSG",
+            "dimension": "report:$ 750.0 million 6.875% ( 6.875 % ) senior notes due june 2017",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 4,
+              "column": 2
+            }
+          },
+          {
+            "ref": "r3c1",
+            "raw": "64.5",
+            "value": 64.5,
+            "row": "$ 600.0 million 7.125% ( 7.125 % ) senior notes due may 2016",
+            "column": "remaining discount",
+            "periods": [
+              2016
+            ],
+            "entity": "RSG",
+            "dimension": "report:$ 600.0 million 7.125% ( 7.125 % ) senior notes due may 2016",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 3,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r3c2",
+            "raw": "9.7",
+            "value": 9.7,
+            "row": "$ 600.0 million 7.125% ( 7.125 % ) senior notes due may 2016",
+            "column": "expected amortization over the next twelve months",
+            "periods": [
+              2016
+            ],
+            "entity": "RSG",
+            "dimension": "report:$ 600.0 million 7.125% ( 7.125 % ) senior notes due may 2016",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 3,
+              "column": 2
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "DXC/2018/page_56.pdf-2",
+    "page_group": "DXC/2018/page_56.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2018
+      ],
+      "base_period": 2018,
+      "target_period": 2018,
+      "output_unit": "percent",
+      "question": "in fiscal 2018 what percentage of total costs and expenses was selling general and administrative ( excludes depreciation and amortization and restructuring costs ) ?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 9.0,
+      "half_last_displayed_digit": 0.5,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 8.2,
+        "output_unit": "percent",
+        "execution_value": 0.08199999999999999,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 8.7830456630981e-06,
+        "output_unit": "percent",
+        "execution_value": 8.7830456630981e-08,
+        "expression": "r2c1/r8c1",
+        "dimension": "report:selling general and administrative ( excludes depreciation and amortization and restructuring costs )",
+        "refs": [
+          "r2c1",
+          "r8c1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r2c1",
+            "raw": "2010",
+            "value": 2010.0,
+            "row": "selling general and administrative ( excludes depreciation and amortization and restructuring costs )",
+            "column": "fiscal years ended march 31 2018",
+            "periods": [
+              2018
+            ],
+            "entity": "DXC",
+            "dimension": "report:selling general and administrative ( excludes depreciation and amortization and restructuring costs )",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 2,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r8c1",
+            "raw": "$ 22885",
+            "value": 22885.0,
+            "row": "total costs and expenses",
+            "column": "fiscal years ended march 31 2018",
+            "periods": [
+              2018
+            ],
+            "entity": "DXC",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 8,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unit_mismatch",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "PNC/2012/page_68.pdf-3",
+    "page_group": "PNC/2012/page_68.pdf",
+    "contract": {
+      "kind": "average",
+      "periods": [
+        2011,
+        2012
+      ],
+      "base_period": 2011,
+      "target_period": 2012,
+      "output_unit": "number",
+      "question": "what was the average for \"other\" loans held in 2012 and 2011?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 100.5,
+      "half_last_displayed_digit": 0.05,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 150.5,
+        "output_unit": "number",
+        "execution_value": 150.5,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 100.5,
+        "output_unit": "number",
+        "execution_value": 100.5,
+        "expression": "(r7c1+r7c2)/2",
+        "dimension": "report:other",
+        "refs": [
+          "r7c1",
+          "r7c2"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r7c1",
+            "raw": "81",
+            "value": 81.0,
+            "row": "other",
+            "column": "december 312012",
+            "periods": [],
+            "entity": "PNC",
+            "dimension": "report:other",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 7,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r7c2",
+            "raw": "120",
+            "value": 120.0,
+            "row": "other",
+            "column": "december 312011",
+            "periods": [],
+            "entity": "PNC",
+            "dimension": "report:other",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 7,
+              "column": 2
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": true,
+        "execution_correct": true
+      },
+      "contract": {
+        "refused": true,
+        "reason": "period_ambiguous_or_missing",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "period_ambiguous_or_missing",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "MRO/2013/page_39.pdf-3",
+    "page_group": "MRO/2013/page_39.pdf",
+    "contract": {
+      "kind": "average",
+      "periods": [
+        2011,
+        2012,
+        2013
+      ],
+      "base_period": 2011,
+      "target_period": 2013,
+      "output_unit": "percent",
+      "question": "by what percentage did the average price of wti crude oil increase from 2011 to 2013?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 3.1,
+      "half_last_displayed_digit": 0.05,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 4.14,
+        "output_unit": "percent",
+        "execution_value": 0.0414,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 3.0911576069813878,
+        "output_unit": "percent",
+        "execution_value": 0.030911576069813877,
+        "expression": "(r1c1 - r1c3)/r1c3",
+        "dimension": "ratio",
+        "refs": [
+          "r1c1",
+          "r1c3"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r1c1",
+            "raw": "$ 98.05",
+            "value": 98.05,
+            "row": "wti crude oil ( dollars per bbl )",
+            "column": "2013",
+            "periods": [
+              2013
+            ],
+            "entity": "MRO",
+            "dimension": "currency:USD",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r1c3",
+            "raw": "$ 95.11",
+            "value": 95.11,
+            "row": "wti crude oil ( dollars per bbl )",
+            "column": "2011",
+            "periods": [
+              2011
+            ],
+            "entity": "MRO",
+            "dimension": "currency:USD",
+            "scale": 1.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 3
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": true,
+        "execution_correct": true
+      },
+      "contract": {
+        "refused": true,
+        "reason": "period_mismatch",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "measure_phrase_missing_or_ambiguous",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "CB/2008/page_229.pdf-3",
+    "page_group": "CB/2008/page_229.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2008
+      ],
+      "base_period": 2008,
+      "target_period": 2008,
+      "output_unit": "ratio",
+      "question": "what is the net income-to-capital ratio for bermuda subsidiaries in 2008?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 9.8,
+      "half_last_displayed_digit": 0.05,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 0.0977,
+        "output_unit": "ratio",
+        "execution_value": 0.0977,
+        "display_correct": true,
+        "execution_correct": true
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 0.0977003285244965,
+        "output_unit": "ratio",
+        "execution_value": 0.0977003285244965,
+        "expression": "(r2c1/r1c1)",
+        "dimension": "ratio",
+        "refs": [
+          "r2c1",
+          "r1c1"
+        ],
+        "model_numeric_agreement": true,
+        "provenance": [
+          {
+            "ref": "r2c1",
+            "raw": "$ 684",
+            "value": 684.0,
+            "row": "statutory net income",
+            "column": "bermuda subsidiaries 2008",
+            "periods": [
+              2008
+            ],
+            "entity": "CB",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 2,
+              "column": 1
+            }
+          },
+          {
+            "ref": "r1c1",
+            "raw": "$ 7001",
+            "value": 7001.0,
+            "row": "statutory capital and surplus",
+            "column": "bermuda subsidiaries 2008",
+            "periods": [
+              2008
+            ],
+            "entity": "CB",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": true,
+        "execution_correct": true
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "ADBE/2008/page_89.pdf-4",
+    "page_group": "ADBE/2008/page_89.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2008
+      ],
+      "base_period": 2008,
+      "target_period": 2008,
+      "output_unit": "number",
+      "question": "if the total fin 48 gross liability for unrecognized tax benefits at november 28 , 2008 were recognized in the future , is the amount of unrecognized tax benefits that would decrease the effective tax rate greater than the amount that would decrease goodwill?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": null,
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 0.86,
+        "output_unit": "percent",
+        "execution_value": 0.0086,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 16.25544267053701,
+        "output_unit": "percent",
+        "execution_value": 0.16255442670537013,
+        "expression": "(post1n5 - post1n4)/post1n5",
+        "dimension": "ratio",
+        "refs": [
+          "post1n5",
+          "post1n4"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "post1n5",
+            "raw": "$ 68.9",
+            "value": 68.9,
+            "row": "post_text[1]",
+            "column": "",
+            "periods": [],
+            "entity": "ADBE",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "text_span",
+              "section": "post",
+              "paragraph": 1,
+              "start": 347,
+              "end": 354
+            }
+          },
+          {
+            "ref": "post1n4",
+            "raw": "$ 57.7",
+            "value": 57.7,
+            "row": "post_text[1]",
+            "column": "",
+            "periods": [],
+            "entity": "ADBE",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "text_span",
+              "section": "post",
+              "paragraph": 1,
+              "start": 260,
+              "end": 268
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "GS/2018/page_69.pdf-2",
+    "page_group": "GS/2018/page_69.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2016
+      ],
+      "base_period": 2016,
+      "target_period": 2016,
+      "output_unit": "USDbn",
+      "question": "what was net interest income in the consolidated statements of earnings in billions for 2016?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 2.55,
+      "half_last_displayed_digit": 0.005,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 0.182,
+        "output_unit": "USDbn",
+        "execution_value": 0.182,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "inconsistent_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "inconsistent_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "APD/2016/page_40.pdf-2",
+    "page_group": "APD/2016/page_40.pdf",
+    "contract": {
+      "kind": "average",
+      "periods": [
+        2014,
+        2016
+      ],
+      "base_period": 2014,
+      "target_period": 2016,
+      "output_unit": "number",
+      "question": "considering the years 2014-2016 , what is the average operating income?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 822.06,
+      "half_last_displayed_digit": 0.005,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 723.7,
+        "output_unit": "number",
+        "execution_value": 723.7,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 828.9000000000001,
+        "output_unit": "number",
+        "execution_value": 828.9000000000001,
+        "expression": "(r2c3+r2c1)/2",
+        "dimension": "report:operating income",
+        "refs": [
+          "r2c3",
+          "r2c1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r2c3",
+            "raw": "762.6",
+            "value": 762.6,
+            "row": "operating income",
+            "column": "2014",
+            "periods": [
+              2014
+            ],
+            "entity": "APD",
+            "dimension": "report:operating income",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 2,
+              "column": 3
+            }
+          },
+          {
+            "ref": "r2c1",
+            "raw": "895.2",
+            "value": 895.2,
+            "row": "operating income",
+            "column": "2016",
+            "periods": [
+              2016
+            ],
+            "entity": "APD",
+            "dimension": "report:operating income",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 2,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": false,
+        "answer": 828.9000000000001,
+        "output_unit": "number",
+        "execution_value": 828.9000000000001,
+        "expression": "(r2c3+r2c1)/2",
+        "dimension": "report:operating income",
+        "refs": [
+          "r2c3",
+          "r2c1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r2c3",
+            "raw": "762.6",
+            "value": 762.6,
+            "row": "operating income",
+            "column": "2014",
+            "periods": [
+              2014
+            ],
+            "entity": "APD",
+            "dimension": "report:operating income",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 2,
+              "column": 3
+            }
+          },
+          {
+            "ref": "r2c1",
+            "raw": "895.2",
+            "value": 895.2,
+            "row": "operating income",
+            "column": "2016",
+            "periods": [
+              2016
+            ],
+            "entity": "APD",
+            "dimension": "report:operating income",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 2,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": true,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": false,
+        "answer": 828.9000000000001,
+        "output_unit": "number",
+        "execution_value": 828.9000000000001,
+        "expression": "(r2c3+r2c1)/2",
+        "dimension": "report:operating income",
+        "refs": [
+          "r2c3",
+          "r2c1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r2c3",
+            "raw": "762.6",
+            "value": 762.6,
+            "row": "operating income",
+            "column": "2014",
+            "periods": [
+              2014
+            ],
+            "entity": "APD",
+            "dimension": "report:operating income",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 2,
+              "column": 3
+            }
+          },
+          {
+            "ref": "r2c1",
+            "raw": "895.2",
+            "value": 895.2,
+            "row": "operating income",
+            "column": "2016",
+            "periods": [
+              2016
+            ],
+            "entity": "APD",
+            "dimension": "report:operating income",
+            "scale": 1.0,
+            "unit_explicit": false,
+            "location": {
+              "kind": "table_cell",
+              "row": 2,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": true,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "GS/2013/page_126.pdf-2",
+    "page_group": "GS/2013/page_126.pdf",
+    "contract": {
+      "kind": "growth",
+      "periods": [
+        2013
+      ],
+      "base_period": 2013,
+      "target_period": 2013,
+      "output_unit": "number",
+      "question": "what is the growth rate in total financial liabilities at fair value in 2013?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": -6.0,
+      "half_last_displayed_digit": 0.05,
+      "percent": true
+    },
+    "policies": {
+      "direct": {
+        "refused": true,
+        "answer": null,
+        "output_unit": "number",
+        "execution_value": null,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "model_refusal",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "period_mismatch",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  },
+  {
+    "id": "JPM/2009/page_175.pdf-1",
+    "page_group": "JPM/2009/page_175.pdf",
+    "contract": {
+      "kind": "unsupported",
+      "periods": [
+        2009
+      ],
+      "base_period": 2009,
+      "target_period": 2009,
+      "output_unit": "USDm",
+      "question": "excluding derivatives , what are net 2009 trading assets , in millions?",
+      "scope": "Explicit years/units and bounded average/change contracts; not general semantic entailment"
+    },
+    "display_reference": {
+      "value": 257839.0,
+      "half_last_displayed_digit": 0.5,
+      "percent": false
+    },
+    "policies": {
+      "direct": {
+        "refused": false,
+        "answer": 318063000000.0,
+        "output_unit": "USDm",
+        "execution_value": 318063000000.0,
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "addressed": {
+        "refused": false,
+        "answer": 318063.0,
+        "output_unit": "USDm",
+        "execution_value": 318063.0,
+        "expression": "r1c1",
+        "dimension": "currency:USD",
+        "refs": [
+          "r1c1"
+        ],
+        "model_numeric_agreement": false,
+        "provenance": [
+          {
+            "ref": "r1c1",
+            "raw": "$ 318063",
+            "value": 318063.0,
+            "row": "trading assets 2013 debt and equity instruments",
+            "column": "2009",
+            "periods": [
+              2009
+            ],
+            "entity": "JPM",
+            "dimension": "currency:USD",
+            "scale": 1000000.0,
+            "unit_explicit": true,
+            "location": {
+              "kind": "table_cell",
+              "row": 1,
+              "column": 1
+            }
+          }
+        ],
+        "contract_checked": false,
+        "scope": "Exact source addresses/labels/entity namespace; bounded explicit row-phrase/period/formula/unit controls. General natural-language entailment and report authenticity remain unverified.",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "contract": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      },
+      "deterministic": {
+        "refused": true,
+        "reason": "unsupported_question_contract",
+        "display_correct": false,
+        "execution_correct": false
+      }
+    }
+  }
+]

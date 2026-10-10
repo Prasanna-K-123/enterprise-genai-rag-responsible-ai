@@ -67,6 +67,39 @@ FinQA attribution and its MIT notice remain in [THIRD_PARTY_NOTICES.md](../THIRD
 
 ## Results
 
-The neural pilot is in progress. No new numerical-performance claim is made until the full frozen sample, replay and source/reference checks are complete.
+The full frozen study is complete: **64 questions / 59 report pages**, with **60 parseable display references** and **61 finite scalar execution references**. All questions, including unsupported types and refusals, remain in the primary denominator. No context overflow occurred. All 64 generations stopped normally; no question was retried or replaced.
+
+| Policy | Answered / 64 | Display matches / 64 | Display matches / 60 numeric references | Execution matches / 64 (primary) | Execution matches / 61 scalar references | Display precision on answered numeric references |
+|---|---:|---:|---:|---:|---:|---:|
+| Direct model answer | 53/64 | 6/64 | 6/60 | 2/64 | 2/61 | 6/50 (12.0%) |
+| Source-addressed execution | 44/64 | 17/64 | 17/60 | 16/64 | 16/61 | 17/41 (41.5%) |
+| Strict v1 contract | 2/64 | 1/64 | 1/60 | 1/64 | 1/61 | 1/2 (50.0%) |
+| Non-LLM v1 contract | 4/64 | 1/64 | 1/60 | 1/64 | 1/61 | 1/4 (25.0%) |
+
+These are **reference-match counts**. Unsupported unit-bearing display strings can be unparseable even when the answer itself is numeric; the numeric-reference denominators are properties of this fixed scorer, not a semantic adjudication. The source-addressed policy raises agreement on the shared proposals, while retaining many wrong answers. The stricter v1 policy has only 3.13% coverage and accepts an incorrect endpoint-only average. Neither provides dependable general financial QA.
+
+| Paired comparison | Display-match change, percentage points (95% page bootstrap) | Execution-match change, percentage points (95% page bootstrap) |
+|---|---:|---:|
+| addressed minus direct | +17.19 [+5.00, +29.69] | +21.88 [+11.29, +33.35] |
+| contract minus addressed | -25.00 [-36.24, -14.70] | -23.44 [-34.38, -13.11] |
+| contract minus direct | -7.81 [-16.13, +0.00] | -1.56 [-7.14, +3.23] |
+| deterministic minus contract | +0.00 [+0.00, +0.00] | +0.00 [+0.00, +0.00] |
+
+The deterministic-minus-strict interval is degenerate because their match indicator vectors are identical in this sample. It is not proof of population or semantic equivalence. Company-year overlap, public-data pretraining exposure and a small fixed-model pilot remain limitations.
+
+Saved per-question latency: median **85.28s**, 95th percentile **149.53s**, summed **5921.71s**. Model input/output token totals are **196,337 / 2,876**. API cash expenditure is zero; CPU/electricity are not priced. These CPU measurements are not service latency guarantees.
+
+Actual outputs SHA256: `75b081a88770c338194ffd94e04d150d0ffe8fb763b821bcdc082cdf7aec1457`. [Full outputs](../reference/grounded_answer_audit/outputs.jsonl) · [Summary](../reference/grounded_answer_audit/summary.json) · [Every policy decision](../reference/grounded_answer_audit/scored_outputs.json). Local replay passed with `--verify-dataset`, checking all input contexts, references, proposals, prompt hashes, full-census decisions and unchanged locked code against the pinned public source. It does not regenerate neural inference.
+
+Concrete examples:
+
+- `GS/2017/page_86.pdf-3`: the model reports an erroneous 170,843,000,000 USDm, but its selected subtraction yields 70,843 USDm under execution. The source-addressed and strict policies match both references. Its columns contain three-month/as-of qualifiers, illustrating that v1 year checks do not establish all reporting-period semantics.
+- `APD/2016/page_40.pdf-2`: the model and v1 strict policy omit 2015 from a 2014–2016 average. The strict policy incorrectly accepts 828.9; the separate post-hoc v2 includes all three years.
+- `STT/2006/page_95.pdf-1`: source-addressed narrative arithmetic matches the reference, but strict policy refuses ambiguous narrative periods; the v1 non-LLM policy instead binds the unrelated generic `total` table row.
+- `GS/2015/page_188.pdf-3`: the model both multiplies its ratio by 100 and requests percent rendering, producing a double-scaled result under addressed execution.
+- `BDX/2018/page_106.pdf-3`: the model sums unrelated rows with an unsupported deep expression; the deterministic v1 policy binds row `other`, not the requested total other income. Address occurrence and phrase inclusion cannot establish the intended measure.
+
 
 The separate complete-public-test deterministic census covers **1,147 questions**: **78 answered / 1,069 refused** (6.80% coverage), **44 display-number matches** and **45 execution-reference matches**. Display-reference precision is 44/78 = 56.41% (descriptive Wilson 95% interval [45.36%, 66.86%]). Sparse coverage and accepted-answer errors rule out dependable general QA. The full census preserves every decision and refusal in [full_test_contract_baseline.json](../reference/grounded_answer_audit/full_test_contract_baseline.json).
+
+A [separate controlled-language v2](CONTROLLED_CONTRACT_V2.md) fixes diagnosed range/formula errors and refuses insufficient measure/unit contexts. It was developed post-hoc and does not change this locked study or supply a new held-out performance result.

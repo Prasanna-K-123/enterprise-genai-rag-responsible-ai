@@ -8,9 +8,9 @@ This verifies consistency across two representations of the same disclosures. It
 
 ## Source-addressed programs and their limits
 
-A separately frozen Qwen3-8B pilot compares direct answers, source-addressed arithmetic, bounded phrase/year/unit contracts and a non-LLM baseline on **64 page-disjoint public questions**. Full supplied report context is available; this is a policy experiment rather than retrieval evaluation. [Protocol and evaluation](docs/GROUNDED_ANSWER_AUDIT.md) · [Concrete parser failures and public-reference diagnostics](docs/REFERENCE_DIAGNOSTICS.md). Actual generation is in progress; no neural improvement is claimed yet.
+A separately frozen Qwen3-8B pilot compares direct answers, source-addressed arithmetic, bounded phrase/year/unit contracts and a non-LLM baseline on **64 page-disjoint public questions**. Full supplied report context is available; this is a policy experiment rather than retrieval evaluation. [Protocol and evaluation](docs/GROUNDED_ANSWER_AUDIT.md) · [Concrete parser failures and public-reference diagnostics](docs/REFERENCE_DIAGNOSTICS.md). All 64 actual outputs are retained: source-addressed execution matches 16/64 scalar execution references versus 2/64 for direct answers; the strict v1 policy matches only 1/64 and answers 2/64. These are fixed-scorer reference matches, not verified financial accuracy.
 
-The separate deterministic full-test census answers only 78/1,147 questions and matches 44 displayed numbers. Exact source addresses and formula checks still accept wrong measures and misread some period/unit instructions. General financial answers remain unreliable. The preserved 128-question audit below is unchanged.
+The separate deterministic full-test census answers only 78/1,147 questions and matches 44 displayed numbers. Exact source addresses and formula checks still accept wrong measures and misread some period/unit instructions. A [separate controlled-language parser](docs/CONTROLLED_CONTRACT_V2.md) addresses diagnosed range/formula errors and refuses insufficient measure/unit contexts; its evaluation is post-hoc development. General financial answers remain unreliable. The preserved 128-question audit below is unchanged.
 
 ## Complete-answer challenge — October 10, 2026
 

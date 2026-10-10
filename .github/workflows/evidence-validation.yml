@@ -23,14 +23,20 @@ jobs:
       - run: python benchmark_financial_controls.py
       - name: Replay actual frozen answer outputs and guard decisions
         run: python benchmark_answers.py --replay
+      - name: Replay all 64 source-addressed proposals against pinned public inputs and references
+        run: python benchmark_grounded_answers.py --mode replay --verify-dataset
       - run: python benchmark_finqa_retrieval.py --download
       - name: Verify post-hoc public-reference diagnostics without rescoring
         run: python audit_reference_consistency.py --verify --download
+      - name: Replay separate controlled-language development census
+        run: python benchmark_controlled_contract_v2.py --replay --download
       - uses: actions/upload-artifact@v4
         with:
           name: financial-ai-evidence
           path: |
             results/
             reference/answer_audit/
+            reference/grounded_answer_audit/
             reference/financial_tools/lineage_receipt.json
             reference/grounded_answer_audit/reference_consistency_audit.json
+            reference/controlled_contract_v2/
