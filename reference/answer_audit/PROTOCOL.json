@@ -1,0 +1,35 @@
+{
+  "frozen_at_utc": "2026-10-10T02:54:55.723534+00:00",
+  "dataset_commit": "0f16e2867befa6840783e58be38c9efb9229d742",
+  "test_git_blob": "59958c7c3bb3b21f4dff6bc912a0fe0ae710aee0",
+  "selection": "First 128 records after sorting SHA256(\"20261010-full-answer-v1|\" + id); no task exclusions",
+  "n": 128,
+  "model": "Qwen/Qwen3-4B-GGUF",
+  "model_revision": "bc640142c66e1fdd12af0bd68f40445458f3869b",
+  "file": "Qwen3-4B-Q4_K_M.gguf",
+  "sha256": "7485fe6f11af29433bc51cab58009521f205840f5b4ae3a32fa7f92e8534fdf5",
+  "backend": "llama-cpp-python 0.3.16 CPU",
+  "retrieval": "TF-IDF, fixed top3; highest existing development all-evidence@3 baseline",
+  "inference": "Only question, raw report candidates and candidate IDs; stripped qa labels, model_input, gold_inds, program and answers. Greedy temperature0, seed20261010, max_new_tokens512, context8192; no test-driven prompt/model/threshold revision.",
+  "comparison": "Same frozen generator outputs: direct reported numeric answer versus bounded arithmetic execution with operand-source provenance guard. Shared generation budget, not two independent models.",
+  "primary_score": "Display numeric answer agreement with normalized qa.answer (numeric and percent formatting); report scored reference availability. No private-test leaderboard claim.",
+  "secondary_score": "Exact rounded5 agreement with FinQA exe_ans; expose disagreements between human-facing answer and exe_ans.",
+  "uncertainty": "Paired bootstrap2000 with fixed seed20261010 plus Wilson proportions; do not infer all-test accuracy from a fixed sample.",
+  "quality_dimensions": [
+    "coverage",
+    "display/strict execution accuracy",
+    "source-row gold coverage (not semantic entailment)",
+    "unsupported operands",
+    "malformed output",
+    "latency",
+    "token counts",
+    "cash API spend0; CPU time not free hardware"
+  ],
+  "limitations": [
+    "public test may contaminate model pretraining",
+    "reference annotations may contain disagreements",
+    "operand occurrence is not semantic entailment or unit/period verification",
+    "sample128 not full1147",
+    "CPU quantization changes model; no SOTA or production claim"
+  ]
+}

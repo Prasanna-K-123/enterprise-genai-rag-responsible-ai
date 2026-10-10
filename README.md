@@ -1,5 +1,9 @@
 # Financial AI Evidence Systems — Retrieval, Numerical Controls & RAG
 
+## Complete-answer challenge — October 10, 2026
+
+Actual Qwen3-4B Q4_K_M outputs are frozen for **128 public-test questions** selected before inference. The audit compares a model's reported answer with bounded arithmetic execution and source-number checks using the same generation budget. Both policies are unreliable on this task; evidence-row retrieval and numeric occurrence do not prove correct units, periods or semantic entailment. **Experimental free-form answers are not served as dependable results.** [Read the protocol, full outputs, score definitions and failure analysis](docs/ANSWER_AUDIT.md). The separate historical financial calculator retains its explicit entity/year/metric/unit contract.
+
 ## Evidence release — 2026-10-09
 
 [883-question FinQA results](results/finqa_retrieval/summary.json) · [Per-question comparisons](results/finqa_retrieval/per_question.csv) · [Numerical controls](results/financial_controls.json) · [CI reproduction](https://github.com/Prasanna-K-123/enterprise-genai-rag-responsible-ai/actions/runs/37966606959) · [Data attribution](THIRD_PARTY_NOTICES.md)

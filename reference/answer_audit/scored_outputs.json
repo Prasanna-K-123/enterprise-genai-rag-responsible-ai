@@ -1,0 +1,3856 @@
+[
+  {
+    "id": "AWK/2017/page_148.pdf-2",
+    "gold_display": 11.7,
+    "direct_answer": 11.76,
+    "guard_answer": 0.1171259842519685,
+    "guard": {
+      "refused": false,
+      "answer": 0.1171259842519685,
+      "sources": [
+        "table_2"
+      ],
+      "operands": [
+        {
+          "value": 1135.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 1016.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 1016.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "C/2008/page_65.pdf-3",
+    "gold_display": 15.0,
+    "direct_answer": 12.5,
+    "guard_answer": 13.888377233376309,
+    "guard": {
+      "refused": false,
+      "answer": 13.888377233376309,
+      "sources": [
+        "table_4"
+      ],
+      "operands": [
+        {
+          "value": 618.3,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 542.9,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 542.9,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "LMT/2016/page_49.pdf-4",
+    "gold_display": 1215.0,
+    "direct_answer": 1282,
+    "guard_answer": 1282.0,
+    "guard": {
+      "refused": false,
+      "answer": 1282.0,
+      "sources": [
+        "table_2"
+      ],
+      "operands": [
+        {
+          "value": 1282.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "CDNS/2015/page_30.pdf-2",
+    "gold_display": 37.9,
+    "direct_answer": 37.9,
+    "guard_answer": 1.379,
+    "guard": {
+      "refused": false,
+      "answer": 1.379,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 137.9,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": true,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "MSI/2007/page_70.pdf-3",
+    "gold_display": 130.0,
+    "direct_answer": null,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "model_refusal"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": false,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "FIS/2017/page_64.pdf-2",
+    "gold_display": 29.0,
+    "direct_answer": 1.0,
+    "guard_answer": 0.9923076923076923,
+    "guard": {
+      "refused": false,
+      "answer": 0.9923076923076923,
+      "sources": [
+        "table_5",
+        "table_2"
+      ],
+      "operands": [
+        {
+          "value": 129.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 130.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "ZBH/2009/page_58.pdf-3",
+    "gold_display": -44.0,
+    "direct_answer": 12.5,
+    "guard_answer": 78.94736842105263,
+    "guard": {
+      "refused": false,
+      "answer": 78.94736842105263,
+      "sources": [
+        "table_3"
+      ],
+      "operands": [
+        {
+          "value": 47.6,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 26.6,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 26.6,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "JPM/2012/page_140.pdf-2",
+    "gold_display": 10.0,
+    "direct_answer": 10.0,
+    "guard_answer": 9.99550997683148,
+    "guard": {
+      "refused": false,
+      "answer": 9.99550997683148,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 306222.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 278395.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 278395.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": true,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "GS/2013/page_220.pdf-1",
+    "gold_display": 148.36,
+    "direct_answer": 125.0,
+    "guard_answer": 1.4836,
+    "guard": {
+      "refused": false,
+      "answer": 1.4836,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 248.36,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "AAL/2015/page_114.pdf-2",
+    "gold_display": 7.5,
+    "direct_answer": 74.9,
+    "guard_answer": 7.495291902071563,
+    "guard": {
+      "refused": false,
+      "answer": 7.495291902071563,
+      "sources": [
+        "table_4",
+        "table_6"
+      ],
+      "operands": [
+        {
+          "value": 199.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 2655.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "CME/2010/page_91.pdf-2",
+    "gold_display": 8.0,
+    "direct_answer": 5.7,
+    "guard_answer": 0.06776180698151951,
+    "guard": {
+      "refused": false,
+      "answer": 0.06776180698151951,
+      "sources": [
+        "table_10",
+        "table_9"
+      ],
+      "operands": [
+        {
+          "value": 9.9,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 146.1,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "ECL/2016/page_52.pdf-2",
+    "gold_display": 7.7,
+    "direct_answer": 56.6,
+    "guard_answer": 3044.5423932651834,
+    "guard": {
+      "refused": false,
+      "answer": 3044.5423932651834,
+      "sources": [
+        "table_3"
+      ],
+      "operands": [
+        {
+          "value": 510.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 967.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 1567.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 3608.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 6652.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "BLK/2014/page_120.pdf-2",
+    "gold_display": 29.63,
+    "direct_answer": null,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "model_refusal"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": false,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "AON/2007/page_171.pdf-1",
+    "gold_display": 284.0,
+    "direct_answer": 284,
+    "guard_answer": 284.0,
+    "guard": {
+      "refused": false,
+      "answer": 284.0,
+      "sources": [
+        "table_5"
+      ],
+      "operands": [
+        {
+          "value": -726.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": -1010.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": true,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": true,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "UA/2011/page_69.pdf-2",
+    "gold_display": 9.7,
+    "direct_answer": 9.7,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "Unsupported numeric operand"
+    },
+    "direct_display_correct": true,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "SLG/2011/page_91.pdf-1",
+    "gold_display": 72075000.0,
+    "direct_answer": 22825000,
+    "guard_answer": 22825000.0,
+    "guard": {
+      "refused": false,
+      "answer": 22825000.0,
+      "sources": [
+        "text_13"
+      ],
+      "operands": [
+        {
+          "value": 22825000.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "LMT/2016/page_49.pdf-2",
+    "gold_display": 5590.0,
+    "direct_answer": null,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "model_refusal"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": false,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "MMM/2007/page_23.pdf-2",
+    "gold_display": 1.59,
+    "direct_answer": -1.63,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "Unsupported numeric operand"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "MRO/2003/page_45.pdf-1",
+    "gold_display": 227.0,
+    "direct_answer": 228,
+    "guard_answer": 227.0,
+    "guard": {
+      "refused": false,
+      "answer": 227.0,
+      "sources": [
+        "table_6"
+      ],
+      "operands": [
+        {
+          "value": 74.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 75.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 78.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "IP/2006/page_35.pdf-3",
+    "gold_display": 59.7,
+    "direct_answer": 57.7,
+    "guard_answer": 59.67741935483871,
+    "guard": {
+      "refused": false,
+      "answer": 59.67741935483871,
+      "sources": [
+        "table_1",
+        "table_8"
+      ],
+      "operands": [
+        {
+          "value": 592.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 992.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "ECL/2017/page_94.pdf-1",
+    "gold_display": 21.3,
+    "direct_answer": 21.3,
+    "guard_answer": 21.3,
+    "guard": {
+      "refused": false,
+      "answer": 21.3,
+      "sources": [
+        "table_14",
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 35.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 13.7,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": true,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "ECL/2016/page_52.pdf-3",
+    "gold_display": 9.2,
+    "direct_answer": 92.3,
+    "guard_answer": 1.0,
+    "guard": {
+      "refused": false,
+      "answer": 1.0,
+      "sources": [
+        "table_7"
+      ],
+      "operands": [
+        {
+          "value": 861.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 1517.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 2033.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 4968.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 9379.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "MRO/2003/page_84.pdf-2",
+    "gold_display": 39.0,
+    "direct_answer": 39.0,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "Unsupported numeric operand"
+    },
+    "direct_display_correct": true,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "SYY/2005/page_70.pdf-2",
+    "gold_display": 72.0,
+    "direct_answer": 72.5,
+    "guard_answer": 0.7190291404305169,
+    "guard": {
+      "refused": false,
+      "answer": 0.7190291404305169,
+      "sources": [
+        "table_5",
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 46957000.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 27316000.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 27316000.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "ABMD/2007/page_78.pdf-3",
+    "gold_display": -21.0,
+    "direct_answer": 12.5,
+    "guard_answer": 0.2662807525325615,
+    "guard": {
+      "refused": false,
+      "answer": 0.2662807525325615,
+      "sources": [
+        "text_22"
+      ],
+      "operands": [
+        {
+          "value": 8.75,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 6.91,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 6.91,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "RCL/2016/page_6.pdf-2",
+    "gold_display": 34.4,
+    "direct_answer": 35.7,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "Unsupported numeric operand"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "BKNG/2016/page_33.pdf-3",
+    "gold_display": 115.27,
+    "direct_answer": null,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "model_refusal"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": false,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "MKTX/2004/page_99.pdf-3",
+    "gold_display": 3876875.0,
+    "direct_answer": 3876875,
+    "guard_answer": 3876875.0,
+    "guard": {
+      "refused": false,
+      "answer": 3876875.0,
+      "sources": [
+        "text_13"
+      ],
+      "operands": [
+        {
+          "value": 1939734.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 1937141.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": true,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": true,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "NCLH/2018/page_97.pdf-2",
+    "gold_display": 1.0,
+    "direct_answer": 1.34,
+    "guard_answer": 0.9708737864077542,
+    "guard": {
+      "refused": false,
+      "answer": 0.9708737864077542,
+      "sources": [
+        "text_7",
+        "text_8"
+      ],
+      "operands": [
+        {
+          "value": 270.4,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 267.8,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 267.8,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "MRK/2013/page_3.pdf-1",
+    "gold_display": -6.8,
+    "direct_answer": 12.5,
+    "guard_answer": -0.06841982778682802,
+    "guard": {
+      "refused": false,
+      "answer": -0.06841982778682802,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 44033.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 47267.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 47267.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "UNP/2007/page_25.pdf-4",
+    "gold_display": 282.0,
+    "direct_answer": 122000,
+    "guard_answer": 282.0,
+    "guard": {
+      "refused": false,
+      "answer": 282.0,
+      "sources": [
+        "table_4"
+      ],
+      "operands": [
+        {
+          "value": 516.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 234.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "BLL/2010/page_37.pdf-4",
+    "gold_display": 765.2,
+    "direct_answer": 765.2,
+    "guard_answer": 765.2,
+    "guard": {
+      "refused": false,
+      "answer": 765.2,
+      "sources": [
+        "text_3",
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 515.2,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 250.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": true,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": true,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "BLL/2011/page_32.pdf-4",
+    "gold_display": 13.7,
+    "direct_answer": 12.5,
+    "guard_answer": 13.704101096804965,
+    "guard": {
+      "refused": false,
+      "answer": 13.704101096804965,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 7630.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 6710.4,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 6710.4,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "HOLX/2008/page_143.pdf-1",
+    "gold_display": 23.4,
+    "direct_answer": 205500,
+    "guard_answer": 205500.0,
+    "guard": {
+      "refused": false,
+      "answer": 205500.0,
+      "sources": [
+        "text_6"
+      ],
+      "operands": [
+        {
+          "value": 205500.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "RSG/2010/page_98.pdf-1",
+    "gold_display": 51.0,
+    "direct_answer": 14.2,
+    "guard_answer": 14.2,
+    "guard": {
+      "refused": false,
+      "answer": 14.2,
+      "sources": [
+        "text_17"
+      ],
+      "operands": [
+        {
+          "value": 14.2,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "C/2008/page_65.pdf-2",
+    "gold_display": 80.5,
+    "direct_answer": 125.0,
+    "guard_answer": 1.0634365634365635,
+    "guard": {
+      "refused": false,
+      "answer": 1.0634365634365635,
+      "sources": [
+        "text_8"
+      ],
+      "operands": [
+        {
+          "value": 12.393,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 6.006,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 6.006,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "ANET/2015/page_156.pdf-1",
+    "gold_display": null,
+    "direct_answer": null,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "model_refusal"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": false,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "ETR/2017/page_143.pdf-3",
+    "gold_display": 566808000.0,
+    "direct_answer": 760000,
+    "guard_answer": 760000.0,
+    "guard": {
+      "refused": false,
+      "answer": 760000.0,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 760000.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "LMT/2014/page_91.pdf-4",
+    "gold_display": 0.15,
+    "direct_answer": null,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "model_refusal"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": false,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "FIS/2016/page_45.pdf-3",
+    "gold_display": 70.0,
+    "direct_answer": 794,
+    "guard_answer": 794.0,
+    "guard": {
+      "refused": false,
+      "answer": 794.0,
+      "sources": [
+        "text_12"
+      ],
+      "operands": [
+        {
+          "value": 794.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "CME/2010/page_123.pdf-2",
+    "gold_display": 373153150.0,
+    "direct_answer": 1211143,
+    "guard_answer": 1211143.0,
+    "guard": {
+      "refused": false,
+      "answer": 1211143.0,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 1211143.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "UNP/2018/page_74.pdf-3",
+    "gold_display": 18.0,
+    "direct_answer": 23.3,
+    "guard_answer": 25.33860045146727,
+    "guard": {
+      "refused": false,
+      "answer": 25.33860045146727,
+      "sources": [
+        "table_7",
+        "table_3"
+      ],
+      "operands": [
+        {
+          "value": 898.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 898.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 2646.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "C/2009/page_197.pdf-1",
+    "gold_display": 10.3,
+    "direct_answer": 12.5,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "Unsupported numeric operand"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "HWM/2015/page_173.pdf-1",
+    "gold_display": 300.0,
+    "direct_answer": 50.0,
+    "guard_answer": 20.0,
+    "guard": {
+      "refused": false,
+      "answer": 20.0,
+      "sources": [
+        "text_11",
+        "text_12"
+      ],
+      "operands": [
+        {
+          "value": 2.0,
+          "whitelisted_constant": true
+        },
+        {
+          "value": 10.0,
+          "whitelisted_constant": true
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "APD/2018/page_30.pdf-2",
+    "gold_display": 14.55,
+    "direct_answer": 0.25,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "Unsupported numeric operand"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "HUM/2009/page_105.pdf-1",
+    "gold_display": -21.0,
+    "direct_answer": 23.9,
+    "guard_answer": -0.20668523676880224,
+    "guard": {
+      "refused": false,
+      "answer": -0.20668523676880224,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 14.24,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 17.95,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 1.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "INTC/2013/page_31.pdf-2",
+    "gold_display": -22.0,
+    "direct_answer": null,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "model_refusal"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": false,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "MRO/2004/page_46.pdf-1",
+    "gold_display": 93.6,
+    "direct_answer": 100.0,
+    "guard_answer": 100.0,
+    "guard": {
+      "refused": false,
+      "answer": 100.0,
+      "sources": [
+        "text_19"
+      ],
+      "operands": [
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "GPN/2008/page_78.pdf-4",
+    "gold_display": 81.6,
+    "direct_answer": 82.3,
+    "guard_answer": 0.8157165240448355,
+    "guard": {
+      "refused": false,
+      "answer": 0.8157165240448355,
+      "sources": [
+        "table_1",
+        "table_9"
+      ],
+      "operands": [
+        {
+          "value": 13536.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 16594.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "HOLX/2006/page_100.pdf-2",
+    "gold_display": 6.0,
+    "direct_answer": 73.4,
+    "guard_answer": 75.71884984025559,
+    "guard": {
+      "refused": false,
+      "answer": 75.71884984025559,
+      "sources": [
+        "table_2",
+        "table_7"
+      ],
+      "operands": [
+        {
+          "value": 23700.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 31300.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "C/2015/page_96.pdf-3",
+    "gold_display": -32.1,
+    "direct_answer": -32.1,
+    "guard_answer": 32.10000000000002,
+    "guard": {
+      "refused": false,
+      "answer": 32.10000000000002,
+      "sources": [
+        "table_2"
+      ],
+      "operands": [
+        {
+          "value": 368.6,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 336.5,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": true,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": true,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "CME/2017/page_89.pdf-2",
+    "gold_display": 3.4,
+    "direct_answer": 3.4,
+    "guard_answer": 3.3999999999999986,
+    "guard": {
+      "refused": false,
+      "answer": 3.3999999999999986,
+      "sources": [
+        "table_9"
+      ],
+      "operands": [
+        {
+          "value": 36.3,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 32.9,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": true,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "NCLH/2018/page_64.pdf-4",
+    "gold_display": null,
+    "direct_answer": 165172,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "invalid syntax (<unknown>, line 1)"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "SNA/2018/page_31.pdf-1",
+    "gold_display": 32.5,
+    "direct_answer": 32.857142857142854,
+    "guard_answer": 32.53968253968254,
+    "guard": {
+      "refused": false,
+      "answer": 32.53968253968254,
+      "sources": [
+        "table_3",
+        "table_4"
+      ],
+      "operands": [
+        {
+          "value": 205000.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 630000.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "GPN/2013/page_87.pdf-2",
+    "gold_display": 13.4,
+    "direct_answer": 13.4,
+    "guard_answer": 13.4,
+    "guard": {
+      "refused": false,
+      "answer": 13.4,
+      "sources": [
+        "text_5"
+      ],
+      "operands": [
+        {
+          "value": 33.5,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 2.5,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": true,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": true,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "CE/2016/page_19.pdf-1",
+    "gold_display": 283.0,
+    "direct_answer": 78,
+    "guard_answer": 283.0,
+    "guard": {
+      "refused": false,
+      "answer": 283.0,
+      "sources": [
+        "text_5"
+      ],
+      "operands": [
+        {
+          "value": 78.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 119.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 86.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "CDNS/2018/page_66.pdf-2",
+    "gold_display": 25.0,
+    "direct_answer": null,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "model_refusal"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": false,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "BKR/2017/page_56.pdf-4",
+    "gold_display": -312.0,
+    "direct_answer": 262,
+    "guard_answer": 262.0,
+    "guard": {
+      "refused": false,
+      "answer": 262.0,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 262.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "AES/2001/page_33.pdf-2",
+    "gold_display": 12.3,
+    "direct_answer": 20.2,
+    "guard_answer": 18.85,
+    "guard": {
+      "refused": false,
+      "answer": 18.85,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 60.15,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 41.3,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "BLL/2010/page_35.pdf-4",
+    "gold_display": 298.5,
+    "direct_answer": 280,
+    "guard_answer": 280.0,
+    "guard": {
+      "refused": false,
+      "answer": 280.0,
+      "sources": [
+        "text_11"
+      ],
+      "operands": [
+        {
+          "value": 280.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "RSG/2018/page_135.pdf-2",
+    "gold_display": null,
+    "direct_answer": 43.33,
+    "guard_answer": 0.43333333333333335,
+    "guard": {
+      "refused": false,
+      "answer": 0.43333333333333335,
+      "sources": [
+        "table_2"
+      ],
+      "operands": [
+        {
+          "value": 30.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 17.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 30.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "INTC/2015/page_41.pdf-2",
+    "gold_display": 64.1,
+    "direct_answer": 63.9,
+    "guard_answer": 64.09185803757829,
+    "guard": {
+      "refused": false,
+      "answer": 64.09185803757829,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 30.7,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 47.9,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "LMT/2015/page_89.pdf-3",
+    "gold_display": 4.0,
+    "direct_answer": 4.16,
+    "guard_answer": 4.170528266913819,
+    "guard": {
+      "refused": false,
+      "answer": 4.170528266913819,
+      "sources": [
+        "table_4"
+      ],
+      "operands": [
+        {
+          "value": 11.24,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 10.79,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 10.79,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "ETR/2017/page_143.pdf-2",
+    "gold_display": 12.9,
+    "direct_answer": 12.5,
+    "guard_answer": 0.128525,
+    "guard": {
+      "refused": false,
+      "answer": 0.128525,
+      "sources": [
+        "table_1",
+        "table_2"
+      ],
+      "operands": [
+        {
+          "value": 857679.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 760000.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 760000.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "MAR/2004/page_45.pdf-1",
+    "gold_display": 68.0,
+    "direct_answer": -68,
+    "guard_answer": -68.0,
+    "guard": {
+      "refused": false,
+      "answer": -68.0,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 1702.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 1770.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "SNA/2013/page_84.pdf-2",
+    "gold_display": 29.6,
+    "direct_answer": 28.6,
+    "guard_answer": 29.600000000000023,
+    "guard": {
+      "refused": false,
+      "answer": 29.600000000000023,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 546.5,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 516.9,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "ETR/2004/page_212.pdf-4",
+    "gold_display": 44.1,
+    "direct_answer": 4.36,
+    "guard_answer": 0.04354523980692214,
+    "guard": {
+      "refused": false,
+      "answer": 0.04354523980692214,
+      "sources": [
+        "table_1",
+        "table_8"
+      ],
+      "operands": [
+        {
+          "value": 973.7,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 931.3,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 973.7,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "JPM/2015/page_137.pdf-3",
+    "gold_display": 42500.0,
+    "direct_answer": 59677,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "Only numeric literals and + - * / are allowed"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "AWK/2013/page_122.pdf-2",
+    "gold_display": 0.13,
+    "direct_answer": 100,
+    "guard_answer": 100.0,
+    "guard": {
+      "refused": false,
+      "answer": 100.0,
+      "sources": [
+        "text_11"
+      ],
+      "operands": [
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "ZBH/2008/page_57.pdf-4",
+    "gold_display": 15.0,
+    "direct_answer": 14.6,
+    "guard_answer": 14.63582001764533,
+    "guard": {
+      "refused": false,
+      "answer": 14.63582001764533,
+      "sources": [
+        "table_2",
+        "table_6"
+      ],
+      "operands": [
+        {
+          "value": 149.3,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 1020.1,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "ECL/2017/page_69.pdf-2",
+    "gold_display": 12.3,
+    "direct_answer": null,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "model_refusal"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": false,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "STT/2007/page_111.pdf-3",
+    "gold_display": -4.4,
+    "direct_answer": 4.6,
+    "guard_answer": -4.364596021112464,
+    "guard": {
+      "refused": false,
+      "answer": -4.364596021112464,
+      "sources": [
+        "table_4"
+      ],
+      "operands": [
+        {
+          "value": 4711.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 4926.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 4926.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "DISCA/2011/page_49.pdf-2",
+    "gold_display": 117.56,
+    "direct_answer": 12.5,
+    "guard_answer": 177.04062141856616,
+    "guard": {
+      "refused": false,
+      "answer": 177.04062141856616,
+      "sources": [
+        "table_2"
+      ],
+      "operands": [
+        {
+          "value": 217.56,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 78.53,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 1.0,
+          "whitelisted_constant": true
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "MRK/2013/page_125.pdf-3",
+    "gold_display": 3.625,
+    "direct_answer": 0.358,
+    "guard_answer": 3.625,
+    "guard": {
+      "refused": false,
+      "answer": 3.625,
+      "sources": [
+        "text_7"
+      ],
+      "operands": [
+        {
+          "value": 319.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 88.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "ADI/2010/page_80.pdf-3",
+    "gold_display": 9.4,
+    "direct_answer": null,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "model_refusal"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": false,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "CME/2017/page_89.pdf-4",
+    "gold_display": 2.93,
+    "direct_answer": 3.33,
+    "guard_answer": 2.9333333333333336,
+    "guard": {
+      "refused": false,
+      "answer": 2.9333333333333336,
+      "sources": [
+        "table_2"
+      ],
+      "operands": [
+        {
+          "value": 3.7,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 3.0,
+          "whitelisted_constant": true
+        },
+        {
+          "value": 2.1,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 3.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "AAL/2013/page_18.pdf-3",
+    "gold_display": 19.5,
+    "direct_answer": 16.3,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "Unsupported numeric operand"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "CMCSA/2015/page_112.pdf-4",
+    "gold_display": 19.3,
+    "direct_answer": 100,
+    "guard_answer": 100.0,
+    "guard": {
+      "refused": false,
+      "answer": 100.0,
+      "sources": [
+        "text_3"
+      ],
+      "operands": [
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "PPG/2006/page_42.pdf-4",
+    "gold_display": 6.0,
+    "direct_answer": 6,
+    "guard_answer": 6.0,
+    "guard": {
+      "refused": false,
+      "answer": 6.0,
+      "sources": [
+        "text_27"
+      ],
+      "operands": [
+        {
+          "value": 10.0,
+          "whitelisted_constant": true
+        },
+        {
+          "value": 4.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": true,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": true,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "AMT/2016/page_49.pdf-1",
+    "gold_display": 9.3,
+    "direct_answer": null,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "model_refusal"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": false,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "UNP/2010/page_21.pdf-1",
+    "gold_display": 39.3,
+    "direct_answer": 100,
+    "guard_answer": 100.0,
+    "guard": {
+      "refused": false,
+      "answer": 100.0,
+      "sources": [
+        "table_4"
+      ],
+      "operands": [
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "AAL/2013/page_18.pdf-2",
+    "gold_display": -3.4,
+    "direct_answer": 2.6,
+    "guard_answer": -0.0343750000000001,
+    "guard": {
+      "refused": false,
+      "answer": -0.0343750000000001,
+      "sources": [
+        "table_2",
+        "table_3"
+      ],
+      "operands": [
+        {
+          "value": 3.09,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 3.2,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 3.2,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "UNP/2015/page_56.pdf-3",
+    "gold_display": 20.0,
+    "direct_answer": 19.9,
+    "guard_answer": 19.89804964539007,
+    "guard": {
+      "refused": false,
+      "answer": 19.89804964539007,
+      "sources": [
+        "table_6",
+        "table_7"
+      ],
+      "operands": [
+        {
+          "value": 4489.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 22560.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "PPG/2008/page_52.pdf-2",
+    "gold_display": 10.0,
+    "direct_answer": 89.8,
+    "guard_answer": 0.898989898989899,
+    "guard": {
+      "refused": false,
+      "answer": 0.898989898989899,
+      "sources": [
+        "text_2",
+        "text_1"
+      ],
+      "operands": [
+        {
+          "value": 89.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 99.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "ADBE/1999/page_64.pdf-3",
+    "gold_display": -8095.0,
+    "direct_answer": 772,
+    "guard_answer": 772.0,
+    "guard": {
+      "refused": false,
+      "answer": 772.0,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 772.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "VNO/2014/page_57.pdf-1",
+    "gold_display": 101.0,
+    "direct_answer": 101.0,
+    "guard_answer": 1.01,
+    "guard": {
+      "refused": false,
+      "answer": 1.01,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 201.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": true,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": true,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "AWK/2018/page_146.pdf-4",
+    "gold_display": null,
+    "direct_answer": 1.3,
+    "guard_answer": 1.2999999999999998,
+    "guard": {
+      "refused": false,
+      "answer": 1.2999999999999998,
+      "sources": [
+        "text_7"
+      ],
+      "operands": [
+        {
+          "value": 0.6,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 0.7,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": true,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "UNP/2006/page_15.pdf-4",
+    "gold_display": 52.0,
+    "direct_answer": 52.1,
+    "guard_answer": 51.83701368978677,
+    "guard": {
+      "refused": false,
+      "answer": 51.83701368978677,
+      "sources": [
+        "table_1",
+        "table_4"
+      ],
+      "operands": [
+        {
+          "value": 27301.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 52667.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "UPS/2012/page_32.pdf-1",
+    "gold_display": 21.46,
+    "direct_answer": 21.46,
+    "guard_answer": 21.459999999999994,
+    "guard": {
+      "refused": false,
+      "answer": 21.459999999999994,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 121.46,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": true,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "MAR/2004/page_45.pdf-2",
+    "gold_display": 27.0,
+    "direct_answer": 139,
+    "guard_answer": 27.0,
+    "guard": {
+      "refused": false,
+      "answer": 27.0,
+      "sources": [
+        "table_2"
+      ],
+      "operands": [
+        {
+          "value": 875.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 848.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "AOS/2010/page_18.pdf-2",
+    "gold_display": 65.2,
+    "direct_answer": 65.0,
+    "guard_answer": 65.20000000000002,
+    "guard": {
+      "refused": false,
+      "answer": 65.20000000000002,
+      "sources": [
+        "table_1",
+        "table_3"
+      ],
+      "operands": [
+        {
+          "value": 178.8,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 113.6,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "ILMN/2008/page_86.pdf-4",
+    "gold_display": 1.2,
+    "direct_answer": null,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "model_refusal"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": false,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "CDW/2015/page_93.pdf-2",
+    "gold_display": 1.26,
+    "direct_answer": null,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "model_refusal"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": false,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "JPM/2018/page_90.pdf-6",
+    "gold_display": 9.9,
+    "direct_answer": 94.6,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "Unsupported numeric operand"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "ETR/2004/page_212.pdf-3",
+    "gold_display": -42.4,
+    "direct_answer": null,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "model_refusal"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": false,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "SNA/2007/page_49.pdf-4",
+    "gold_display": 2.7,
+    "direct_answer": 2.86,
+    "guard_answer": 2.77777777777778,
+    "guard": {
+      "refused": false,
+      "answer": 2.77777777777778,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 1.11,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 1.08,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 1.08,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "MAS/2017/page_27.pdf-4",
+    "gold_display": 1.32,
+    "direct_answer": 67.1,
+    "guard_answer": 0.7358225579931231,
+    "guard": {
+      "refused": false,
+      "answer": 0.7358225579931231,
+      "sources": [
+        "table_2"
+      ],
+      "operands": [
+        {
+          "value": 151.94,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 206.49,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "ADI/2019/page_29.pdf-1",
+    "gold_display": 9015431.0,
+    "direct_answer": null,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "model_refusal"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": false,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "MRK/2013/page_125.pdf-4",
+    "gold_display": 44.59,
+    "direct_answer": 53.8,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "Unsupported numeric operand"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "HIG/2011/page_53.pdf-1",
+    "gold_display": 17.8,
+    "direct_answer": 57,
+    "guard_answer": 57.0,
+    "guard": {
+      "refused": false,
+      "answer": 57.0,
+      "sources": [
+        "table_4"
+      ],
+      "operands": [
+        {
+          "value": 57.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "RSG/2009/page_140.pdf-2",
+    "gold_display": -32.8,
+    "direct_answer": 39.6,
+    "guard_answer": 0.3281972265023112,
+    "guard": {
+      "refused": false,
+      "answer": 0.3281972265023112,
+      "sources": [
+        "text_12"
+      ],
+      "operands": [
+        {
+          "value": 6.49,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 4.36,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 6.49,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "RSG/2016/page_139.pdf-1",
+    "gold_display": 17.32,
+    "direct_answer": 17.3,
+    "guard_answer": 0.17323024885237984,
+    "guard": {
+      "refused": false,
+      "answer": 0.17323024885237984,
+      "sources": [
+        "table_3"
+      ],
+      "operands": [
+        {
+          "value": 48.56,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 41.39,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 41.39,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "JPM/2018/page_90.pdf-2",
+    "gold_display": 2129182.0,
+    "direct_answer": 4630,
+    "guard_answer": 4630.0,
+    "guard": {
+      "refused": false,
+      "answer": 4630.0,
+      "sources": [
+        "table_2"
+      ],
+      "operands": [
+        {
+          "value": 4630.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "ADI/2010/page_80.pdf-1",
+    "gold_display": 6.4,
+    "direct_answer": 6.35,
+    "guard_answer": 0.06358381502890173,
+    "guard": {
+      "refused": false,
+      "answer": 0.06358381502890173,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 1840.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 1730.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 1730.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "AES/2002/page_128.pdf-1",
+    "gold_display": 8.0,
+    "direct_answer": 8.24,
+    "guard_answer": 8.284023668639055,
+    "guard": {
+      "refused": false,
+      "answer": 8.284023668639055,
+      "sources": [
+        "text_11",
+        "table_0",
+        "table_7"
+      ],
+      "operands": [
+        {
+          "value": 14.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 169.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "ETR/2016/page_150.pdf-3",
+    "gold_display": 56.3,
+    "direct_answer": 66.6,
+    "guard_answer": 55.4,
+    "guard": {
+      "refused": false,
+      "answer": 55.4,
+      "sources": [
+        "text_10"
+      ],
+      "operands": [
+        {
+          "value": 10.6,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 11.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 11.2,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 11.6,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 11.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "PPG/2006/page_42.pdf-1",
+    "gold_display": 6.25,
+    "direct_answer": null,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "model_refusal"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": false,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "PNC/2008/page_122.pdf-2",
+    "gold_display": 797.7,
+    "direct_answer": 2193,
+    "guard_answer": 2393.0,
+    "guard": {
+      "refused": false,
+      "answer": 2393.0,
+      "sources": [
+        "table_2"
+      ],
+      "operands": [
+        {
+          "value": 1824.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 250.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 319.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "HOLX/2007/page_93.pdf-1",
+    "gold_display": 57.2,
+    "direct_answer": 2943694,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "Only numeric literals and + - * / are allowed"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "JKHY/2019/page_18.pdf-3",
+    "gold_display": null,
+    "direct_answer": 1,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "Only numeric literals and + - * / are allowed"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "GS/2017/page_179.pdf-2",
+    "gold_display": 12.0,
+    "direct_answer": 11.54,
+    "guard_answer": 11.538461538461531,
+    "guard": {
+      "refused": false,
+      "answer": 11.538461538461531,
+      "sources": [
+        "text_25"
+      ],
+      "operands": [
+        {
+          "value": 2.9,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 2.6,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 2.6,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "ETR/2013/page_21.pdf-1",
+    "gold_display": -9.3,
+    "direct_answer": 9,
+    "guard_answer": 9.0,
+    "guard": {
+      "refused": false,
+      "answer": 9.0,
+      "sources": [
+        "text_14"
+      ],
+      "operands": [
+        {
+          "value": 9.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "GPN/2008/page_78.pdf-3",
+    "gold_display": 81.6,
+    "direct_answer": 82.0,
+    "guard_answer": 0.8157165240448355,
+    "guard": {
+      "refused": false,
+      "answer": 0.8157165240448355,
+      "sources": [
+        "table_1",
+        "table_9"
+      ],
+      "operands": [
+        {
+          "value": 13536.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 16594.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "RSG/2018/page_135.pdf-1",
+    "gold_display": 4.6,
+    "direct_answer": 0.82,
+    "guard_answer": 82.0,
+    "guard": {
+      "refused": false,
+      "answer": 82.0,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 82.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "PNC/2012/page_174.pdf-3",
+    "gold_display": 448.0,
+    "direct_answer": 448,
+    "guard_answer": 448.0,
+    "guard": {
+      "refused": false,
+      "answer": 448.0,
+      "sources": [
+        "table_4"
+      ],
+      "operands": [
+        {
+          "value": 1589.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 1141.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": true,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": true,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "AAL/2010/page_72.pdf-4",
+    "gold_display": -3.8,
+    "direct_answer": 3.77,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "Unsupported numeric operand"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "AON/2010/page_86.pdf-1",
+    "gold_display": 55.0,
+    "direct_answer": 54.96,
+    "guard_answer": 55.04866180048662,
+    "guard": {
+      "refused": false,
+      "answer": 55.04866180048662,
+      "sources": [
+        "table_12",
+        "table_13"
+      ],
+      "operands": [
+        {
+          "value": 2715.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 4932.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "GS/2018/page_78.pdf-2",
+    "gold_display": 5.8,
+    "direct_answer": 6.22,
+    "guard_answer": 6.22,
+    "guard": {
+      "refused": false,
+      "answer": 6.22,
+      "sources": [
+        "text_25"
+      ],
+      "operands": [
+        {
+          "value": 6.22,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "AMT/2008/page_107.pdf-3",
+    "gold_display": -5781.0,
+    "direct_answer": 20963,
+    "guard_answer": 20963.0,
+    "guard": {
+      "refused": false,
+      "answer": 20963.0,
+      "sources": [
+        "table_0"
+      ],
+      "operands": [
+        {
+          "value": 20963.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "AAL/2013/page_172.pdf-3",
+    "gold_display": 15.7,
+    "direct_answer": 849,
+    "guard_answer": 849.0,
+    "guard": {
+      "refused": false,
+      "answer": 849.0,
+      "sources": [
+        "table_2"
+      ],
+      "operands": [
+        {
+          "value": 849.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "ETR/2016/page_150.pdf-1",
+    "gold_display": 100.9,
+    "direct_answer": 105.2,
+    "guard_answer": 100.9,
+    "guard": {
+      "refused": false,
+      "answer": 100.9,
+      "sources": [
+        "text_1"
+      ],
+      "operands": [
+        {
+          "value": 21.7,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 22.3,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 22.7,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 23.2,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 11.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": true,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "CDNS/2018/page_66.pdf-1",
+    "gold_display": 81.0,
+    "direct_answer": null,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "model_refusal"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": false,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "AMT/2012/page_50.pdf-2",
+    "gold_display": 7662592.0,
+    "direct_answer": 1256.1,
+    "guard_answer": null,
+    "guard": {
+      "refused": true,
+      "reason": "A refusal must contain no answer or citations"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "RSG/2015/page_98.pdf-2",
+    "gold_display": null,
+    "direct_answer": 100.3,
+    "guard_answer": 100.3,
+    "guard": {
+      "refused": false,
+      "answer": 100.3,
+      "sources": [
+        "text_14"
+      ],
+      "operands": [
+        {
+          "value": 100.3,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": false
+  },
+  {
+    "id": "PNC/2012/page_174.pdf-1",
+    "gold_display": 20.5,
+    "direct_answer": 100.0,
+    "guard_answer": 100.0,
+    "guard": {
+      "refused": false,
+      "answer": 100.0,
+      "sources": [
+        "text_6"
+      ],
+      "operands": [
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": false,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "FIS/2010/page_70.pdf-2",
+    "gold_display": 2.9,
+    "direct_answer": 121.4,
+    "guard_answer": 121.4,
+    "guard": {
+      "refused": false,
+      "answer": 121.4,
+      "sources": [
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 121.4,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": false,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "C/2009/page_45.pdf-1",
+    "gold_display": 28.0,
+    "direct_answer": 12.5,
+    "guard_answer": 0.2823826032146234,
+    "guard": {
+      "refused": false,
+      "answer": 0.2823826032146234,
+      "sources": [
+        "table_4",
+        "table_1"
+      ],
+      "operands": [
+        {
+          "value": 896.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 3173.0,
+          "whitelisted_constant": false
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": true,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  },
+  {
+    "id": "GS/2014/page_51.pdf-2",
+    "gold_display": -9.7,
+    "direct_answer": 12.5,
+    "guard_answer": -9.731386038648477,
+    "guard": {
+      "refused": false,
+      "answer": -9.731386038648477,
+      "sources": [
+        "table_5"
+      ],
+      "operands": [
+        {
+          "value": 230667.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 255534.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 255534.0,
+          "whitelisted_constant": false
+        },
+        {
+          "value": 100.0,
+          "whitelisted_constant": true
+        }
+      ],
+      "guarantee": "Syntax and numeric occurrence only; entity/period/unit meaning is not established"
+    },
+    "direct_display_correct": false,
+    "guard_display_correct": false,
+    "direct_strict_execution_correct": false,
+    "guard_strict_execution_correct": false,
+    "all_gold_rows_cited": true,
+    "all_gold_rows_retrieved": true,
+    "generated_citations_retrieved": true,
+    "reference_display_execution_disagree": true
+  }
+]
