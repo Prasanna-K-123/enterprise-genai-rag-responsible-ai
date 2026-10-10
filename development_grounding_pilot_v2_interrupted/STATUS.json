@@ -1,0 +1,5 @@
+{
+  "status": "PRE_FREEZE_TRAINING_PILOT_INTERRUPTED",
+  "records_retained": 2,
+  "reason": "Compact input exposed source addresses but generation invented binding labels. Replace redundant copied-label generation with a bounded ref list and deterministic source binding. No fresh test loaded."
+}

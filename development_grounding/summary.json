@@ -1,0 +1,178 @@
+{
+  "examples": 8,
+  "report_pages": 8,
+  "display_eligible": 8,
+  "execution_eligible": 8,
+  "policies": {
+    "direct": {
+      "answered": 7,
+      "refused": 1,
+      "coverage": 0.875,
+      "display_hits": 1,
+      "display_eligible": 8,
+      "display_accuracy": 0.125,
+      "display_hit_rate_all_questions": 0.125,
+      "execution_hit_rate_all_questions": 0.0,
+      "display_precision_answered": 0.14285714285714285,
+      "display_precision_ci95_wilson": [
+        0.02567962434474355,
+        0.5131278292743189
+      ],
+      "execution_hits": 0,
+      "execution_eligible": 8,
+      "execution_accuracy": 0.0,
+      "refusals_by_reason": {
+        "model_or_input_refusal": 1
+      }
+    },
+    "addressed": {
+      "answered": 7,
+      "refused": 1,
+      "coverage": 0.875,
+      "display_hits": 3,
+      "display_eligible": 8,
+      "display_accuracy": 0.375,
+      "display_hit_rate_all_questions": 0.375,
+      "execution_hit_rate_all_questions": 0.375,
+      "display_precision_answered": 0.42857142857142855,
+      "display_precision_ci95_wilson": [
+        0.15821985525146975,
+        0.7495416354723428
+      ],
+      "execution_hits": 3,
+      "execution_eligible": 8,
+      "execution_accuracy": 0.375,
+      "refusals_by_reason": {
+        "model_refusal": 1
+      }
+    },
+    "contract": {
+      "answered": 1,
+      "refused": 7,
+      "coverage": 0.125,
+      "display_hits": 1,
+      "display_eligible": 8,
+      "display_accuracy": 0.125,
+      "display_hit_rate_all_questions": 0.125,
+      "execution_hit_rate_all_questions": 0.125,
+      "display_precision_answered": 1.0,
+      "display_precision_ci95_wilson": [
+        0.20654931437723745,
+        1.0
+      ],
+      "execution_hits": 1,
+      "execution_eligible": 8,
+      "execution_accuracy": 0.125,
+      "refusals_by_reason": {
+        "model_refusal": 1,
+        "period_mismatch": 1,
+        "unit_mismatch": 1,
+        "unsupported_question_contract": 4
+      }
+    },
+    "deterministic": {
+      "answered": 1,
+      "refused": 7,
+      "coverage": 0.125,
+      "display_hits": 1,
+      "display_eligible": 8,
+      "display_accuracy": 0.125,
+      "display_hit_rate_all_questions": 0.125,
+      "execution_hit_rate_all_questions": 0.125,
+      "display_precision_answered": 1.0,
+      "display_precision_ci95_wilson": [
+        0.20654931437723745,
+        1.0
+      ],
+      "execution_hits": 1,
+      "execution_eligible": 8,
+      "execution_accuracy": 0.125,
+      "refusals_by_reason": {
+        "measure_phrase_missing_or_ambiguous": 2,
+        "unsupported_question_contract": 5
+      }
+    }
+  },
+  "paired_comparisons": {
+    "addressed_minus_direct": {
+      "display_correct": {
+        "all_question_hit_rate_difference": 0.25,
+        "report_page_bootstrap_ci95": [
+          -0.25,
+          0.625
+        ]
+      },
+      "execution_correct": {
+        "all_question_hit_rate_difference": 0.375,
+        "report_page_bootstrap_ci95": [
+          0.125,
+          0.75
+        ]
+      }
+    },
+    "contract_minus_addressed": {
+      "display_correct": {
+        "all_question_hit_rate_difference": -0.25,
+        "report_page_bootstrap_ci95": [
+          -0.625,
+          0.0
+        ]
+      },
+      "execution_correct": {
+        "all_question_hit_rate_difference": -0.25,
+        "report_page_bootstrap_ci95": [
+          -0.625,
+          0.0
+        ]
+      }
+    },
+    "contract_minus_direct": {
+      "display_correct": {
+        "all_question_hit_rate_difference": 0.0,
+        "report_page_bootstrap_ci95": [
+          -0.375,
+          0.375
+        ]
+      },
+      "execution_correct": {
+        "all_question_hit_rate_difference": 0.125,
+        "report_page_bootstrap_ci95": [
+          0.0,
+          0.375
+        ]
+      }
+    },
+    "deterministic_minus_contract": {
+      "display_correct": {
+        "all_question_hit_rate_difference": 0.0,
+        "report_page_bootstrap_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "execution_correct": {
+        "all_question_hit_rate_difference": 0.0,
+        "report_page_bootstrap_ci95": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "contract_types": {
+    "growth": 3,
+    "unsupported": 5
+  },
+  "context_refusals": 0,
+  "latency_seconds": {
+    "p50": 76.14891694599987,
+    "p95": 119.22627989054976,
+    "total": 663.9234887989992
+  },
+  "tokens": {
+    "prompt_tokens": 23163,
+    "completion_tokens": 331
+  },
+  "cash_api_spend_usd": 0,
+  "scope": "Fixed Qwen3-8B Q4_K_M generation, three shared-proposal policies plus a non-LLM explicit-contract baseline, page-disjoint public-test sample from earlier 128. Full report context; not retrieval evaluation, private leaderboard, company-disjoint test, general semantic verification or comparison isolating model size. CPU/electricity cost not valued."
+}

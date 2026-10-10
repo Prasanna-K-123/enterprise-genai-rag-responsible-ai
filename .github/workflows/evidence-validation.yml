@@ -24,6 +24,8 @@ jobs:
       - name: Replay actual frozen answer outputs and guard decisions
         run: python benchmark_answers.py --replay
       - run: python benchmark_finqa_retrieval.py --download
+      - name: Verify post-hoc public-reference diagnostics without rescoring
+        run: python audit_reference_consistency.py --verify --download
       - uses: actions/upload-artifact@v4
         with:
           name: financial-ai-evidence
@@ -31,3 +33,4 @@ jobs:
             results/
             reference/answer_audit/
             reference/financial_tools/lineage_receipt.json
+            reference/grounded_answer_audit/reference_consistency_audit.json

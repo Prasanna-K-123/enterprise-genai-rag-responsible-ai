@@ -1,5 +1,17 @@
 # Financial AI Evidence Systems — Retrieval, Numerical Controls & RAG
 
+## Exact financial-source lineage — October 10, 2026
+
+The historical explicit-request calculator now requires reconciled provenance: **39 registered rows / 33 distinct concept-period contexts** match official SEC companyfacts and inline XBRL from two issuer filings. Observation dates, units, concepts and accessions are checked; filing fiscal-year labels are not substituted for observation years. Both current filing HTML hashes differ from prior captures and remain separately recorded. [Source receipt, parser scope and independent collection instructions](docs/FILING_LINEAGE.md).
+
+This verifies consistency across two representations of the same disclosures. It is not an independent financial audit, a new forecast or validation of free-form generated answers.
+
+## Source-addressed programs and their limits
+
+A separately frozen Qwen3-8B pilot compares direct answers, source-addressed arithmetic, bounded phrase/year/unit contracts and a non-LLM baseline on **64 page-disjoint public questions**. Full supplied report context is available; this is a policy experiment rather than retrieval evaluation. [Protocol and evaluation](docs/GROUNDED_ANSWER_AUDIT.md) · [Concrete parser failures and public-reference diagnostics](docs/REFERENCE_DIAGNOSTICS.md). Actual generation is in progress; no neural improvement is claimed yet.
+
+The separate deterministic full-test census answers only 78/1,147 questions and matches 44 displayed numbers. Exact source addresses and formula checks still accept wrong measures and misread some period/unit instructions. General financial answers remain unreliable. The preserved 128-question audit below is unchanged.
+
 ## Complete-answer challenge — October 10, 2026
 
 Actual Qwen3-4B Q4_K_M outputs are frozen for **128 public-test questions** selected before inference. The audit compares a model's reported answer with bounded arithmetic execution and source-number checks using the same generation budget. Both policies are unreliable on this task; evidence-row retrieval and numeric occurrence do not prove correct units, periods or semantic entailment. **Experimental free-form answers are not served as dependable results.** [Read the protocol, full outputs, score definitions and failure analysis](docs/ANSWER_AUDIT.md). The separate historical financial calculator retains its explicit entity/year/metric/unit contract.

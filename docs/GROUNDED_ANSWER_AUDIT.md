@@ -44,6 +44,8 @@ The primary scalar metric rounds a proposed execution value to five decimal plac
 
 Display agreement uses half the last displayed digit of a parseable reference, with explicit percent/ratio conversion and only a floating-point epsilon. Both all-question and numeric-reference denominators are shown. A coarse rounded annotation is a numeric-agreement criterion, not proof of semantic correctness. Coverage and answered precision must be read together; high precision with sparse answers cannot establish dependable general QA.
 
+The [post-hoc reference diagnostic](REFERENCE_DIAGNOSTICS.md) documents mixed percentage execution conventions and specific program/annotation inconsistencies, together with genuine prototype parser and measure-binding errors. It does not alter the predeclared scorer or remove questions. All reported rates should be read as **published-reference agreement**, not adjudicated semantic correctness.
+
 Paired 95% bootstrap intervals resample report pages (2,000 draws, fixed seed). They are conditional on this fixed local model and sampled public questions. Dependence across pages of the same company-year may remain, and a 64-question pilot has wide uncertainty. Wilson intervals for answered precision are descriptive and do not correct that dependence.
 
 After generation, replay reconstructs each clean context and prompt, checks that the saved proposal matches the raw model text, repeats all decisions/scores, and optionally verifies all inputs/references against the pinned public dataset. Replay is **not neural inference regeneration**.
@@ -65,4 +67,6 @@ FinQA attribution and its MIT notice remain in [THIRD_PARTY_NOTICES.md](../THIRD
 
 ## Results
 
-The locked study is in progress. No new numerical-performance claim is made until the full frozen sample, census, replay and source/reference checks are complete.
+The neural pilot is in progress. No new numerical-performance claim is made until the full frozen sample, replay and source/reference checks are complete.
+
+The separate complete-public-test deterministic census covers **1,147 questions**: **78 answered / 1,069 refused** (6.80% coverage), **44 display-number matches** and **45 execution-reference matches**. Display-reference precision is 44/78 = 56.41% (descriptive Wilson 95% interval [45.36%, 66.86%]). Sparse coverage and accepted-answer errors rule out dependable general QA. The full census preserves every decision and refusal in [full_test_contract_baseline.json](../reference/grounded_answer_audit/full_test_contract_baseline.json).
