@@ -6,6 +6,10 @@ and rendered from a frozen public-filing evidence register.
 """
 from pathlib import Path
 import csv,json,math
+if __package__ in {None,''}:
+    import sys
+    sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+from src.filing_lineage import RECEIPT, validate_row
 
 ROOT=Path(__file__).resolve().parents[1]
 DIRECT={'revenue','operating_income','depreciation_amortization','interest_expense','cash_from_operations','capital_expenditures'}
@@ -22,15 +26,25 @@ def answer(request):
         raise ValueError('Unsupported historical period or metric')
     path=ROOT/'reference/financial_tools/source_register.csv'
     register=list(csv.DictReader(path.open()))
+    receipt=json.loads(RECEIPT.read_text())
     used=[]
     def fact(name,period=year):
         matches=[r for r in register if r['evidence_set']=='annual_history' and r['metric']==name and r['end']==f'{period}-11-30']
         if len(matches)!=1 or matches[0]['unit']!='USD': raise ValueError('Fact missing, ambiguous or has unsupported units')
         row=matches[0];value=float(row['value_raw'])/1e6
+        lineage=validate_row(row,receipt)
         if not math.isfinite(value): raise ValueError('Non-finite financial fact')
         used.append(dict(metric=name,period_end=row['end'],accession=row['accession'],unit='USDm',value=value,
                          source_url=row['source_url'] or f'https://www.sec.gov/Archives/edgar/data/815097/{row["accession"].replace("-","")}/ccl-20251130.htm',
-                         original_filing_sha256=row['source_sha256'] or None))
+                         original_filing_sha256=row['source_sha256'] or None,
+                         observation_start=lineage['observed_start'],
+                         resolved_xbrl_tag=lineage['resolved_tag'],
+                         companyfacts_source_url=receipt['companyfacts_source']['url'],
+                         companyfacts_snapshot_sha256=receipt['companyfacts_source']['sha256'],
+                         freshly_reconciled_filing_url=lineage['inline'][0]['source_url'],
+                         freshly_reconciled_filing_sha256=lineage['inline'][0]['source_sha256'],
+                         lineage_row_sha256=lineage['register_row_sha256'],
+                         source_reconciliation='Exact unit, accession and observation dates match companyfacts and inline XBRL; original/current HTML capture hashes are distinct.'))
         return value
     def ebitda(): return fact('operating_income')+fact('depreciation_amortization')
     def fcf(): return fact('cash_from_operations')-fact('capital_expenditures')

@@ -18,6 +18,8 @@ jobs:
           cache-dependency-path: requirements-controls.txt
       - run: pip install -r requirements-controls.txt
       - run: python -m pytest -q
+      - name: Replay exact SEC filing lineage against all registered facts
+        run: python -m src.filing_lineage
       - run: python benchmark_financial_controls.py
       - name: Replay actual frozen answer outputs and guard decisions
         run: python benchmark_answers.py --replay
@@ -28,3 +30,4 @@ jobs:
           path: |
             results/
             reference/answer_audit/
+            reference/financial_tools/lineage_receipt.json
