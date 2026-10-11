@@ -1,0 +1,39 @@
+{
+  "version": "20261011-explicit-answer-semantics-v1",
+  "base_commit": "a0368d045e2b403ca9185b168557eda831922059",
+  "source_entities": [
+    "0000320193",
+    "0000789019"
+  ],
+  "observation_end_years": [
+    2023,
+    2024,
+    2025
+  ],
+  "cutoff": "2026-10-11",
+  "expected_seed_requests": 172,
+  "expected_cases": 3498,
+  "expected_answer_required": 368,
+  "expected_refusal_required": 3130,
+  "expected_fault_strata": 25,
+  "policies": [
+    "reported",
+    "addressed",
+    "semantic"
+  ],
+  "new_neural_generation": false,
+  "design": "See docs/SEMANTIC_CONTRACT_DESIGN.md; constructed explicit-request/proposal conformance suite, not untouched language accuracy. Exact Fraction oracle / separate complete-answer scorer / bounded Decimal AST executor. Preserve all previous studies. No result-tuned changes.",
+  "locked_sha256": {
+    "src/semantic_contract.py": "b793bdf117892f213957a8c3167de89f1ac099018e7721e4272f6907063b1b7a",
+    "src/semantic_sources.py": "ace521304db010b055ada1656b0a2f65cb15bac8d32282dd612385606db19e93",
+    "semantic_case_builder.py": "89a77148a4b662d7bce1bddec58c1a109b58e0c31022099c4753b191e577862a",
+    "semantic_independent_score.py": "110ffa1572428fe6f3efe2833e680d94652131333a935da94e710352abcbcdf3",
+    "benchmark_semantic_contract.py": "766a805e3ac104cc297ee349bdf5341a80171a4b642793d7e16f44aa2600d320",
+    "answer_semantic.py": "9dd26e9ba3b242acbea4e1a015c95719fd58ef1c66ce78264c0b87ae25ff3ec9",
+    "tests/test_semantic_contract.py": "70d8c70f4ca9795a34e2a77bb79bdbfe1577f2396cb2c143ab74fb78c3ec87a2",
+    "tests/test_semantic_challenge.py": "643abe6b72167831f9b4f725a9ae4a6c5bf2df84b1404b270b040ec85d12dbb3",
+    "requirements-controls.txt": "89effaef1a9c99b9eb2af1a0208084695df6f87ddba1cb9daa2e2263f7d56be2",
+    "docs/SEMANTIC_CONTRACT_DESIGN.md": "7b0e0b201e9e5a6902258586c97f57e28eed82924fcf624f7e42ba020dfa8d6d",
+    ".github/workflows/semantic-contract-validation.yml": "40dd6da318eda3ee97f5bdfb3e232e112451e643cb74bbb092d52480e35ad8c2"
+  }
+}
