@@ -1,5 +1,12 @@
 # Financial AI Evidence Systems — Retrieval, Numerical Controls & RAG
 
+## Explicit financial-answer reliability — October 11, 2026
+
+A typed calculator now binds issuer, concept, exact observation dates, accession, units and executable operations to verified source evidence. **24 annual Apple/Microsoft contexts** reconcile between SEC concept records and inline XBRL. A separately registered **3,498-case constructed fault study** returns all 368 required answers and 3,130 required refusals under the strict contract, with zero observed escapes in this finite suite; source-addressed arithmetic alone accepts 2,930 invalid cases. A non-LLM planner answers all 172 supported explicit requests.
+
+[Working examples, complete comparison and limits](docs/SEMANTIC_CONTRACT_REVIEW.md) · [Frozen design](docs/SEMANTIC_CONTRACT_DESIGN.md) · [Every fault-stratum result](reference/semantic_contract/SUMMARY.json). These are explicit-request conformance results, **not new neural or general natural-language accuracy**. Both earlier unreliable neural studies below remain unchanged.
+
+
 ## Exact financial-source lineage — October 10, 2026
 
 The historical explicit-request calculator now requires reconciled provenance: **39 registered rows / 33 distinct concept-period contexts** match official SEC companyfacts and inline XBRL from two issuer filings. Observation dates, units, concepts and accessions are checked; filing fiscal-year labels are not substituted for observation years. Both current filing HTML hashes differ from prior captures and remain separately recorded. [Source receipt, parser scope and independent collection instructions](docs/FILING_LINEAGE.md).

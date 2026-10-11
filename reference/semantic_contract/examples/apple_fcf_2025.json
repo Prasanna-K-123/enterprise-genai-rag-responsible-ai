@@ -1,0 +1,18 @@
+{
+  "entity": "0000320193",
+  "accession": "0000320193-25-000079",
+  "operation": "subtract",
+  "operands": [
+    {
+      "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "start": "2024-09-29",
+      "end": "2025-09-27"
+    },
+    {
+      "concept": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+      "start": "2024-09-29",
+      "end": "2025-09-27"
+    }
+  ],
+  "output_unit": "USDm"
+}

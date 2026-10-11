@@ -11,3 +11,7 @@ See [the benchmark source](benchmark_finqa_retrieval.py) and [result provenance]
 ## Original RAG study
 
 The original RAG study below the evidence release in the README uses separate public Accenture reports. Its corpus and evaluation results are distinct from FinQA; the portfolio is not affiliated with or endorsed by Accenture. Source references and limitations remain in the project documentation.
+
+## SEC explicit-request semantic capture — 2026-10-11
+
+Original SEC companyconcept and submissions JSON for Apple CIK0000320193 and Microsoft CIK0000789019 are retained with exact capture URLs and hashes. Selected numerical inline-XBRL fact/context/unit nodes are included for reconciliation; full issuer filings are not redistributed. The source disclosure remains attributable to the named issuer and SEC accession. This portfolio is unaffiliated with and unendorsed by either issuer or the SEC. See reference/semantic_contract/sources/CAPTURE.json and docs/SEMANTIC_CONTRACT_REVIEW.md.

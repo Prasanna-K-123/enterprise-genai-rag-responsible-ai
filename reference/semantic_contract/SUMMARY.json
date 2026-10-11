@@ -1,0 +1,972 @@
+{
+  "metrics": {
+    "policies": {
+      "addressed": {
+        "cases": 3498,
+        "answer_required": 368,
+        "refusal_required": 3130,
+        "answered": 3298,
+        "correct": 568,
+        "unsafe_accepts": 2930,
+        "false_refusals": 0,
+        "correct_answers": 368,
+        "correct_refusals": 200
+      },
+      "reported": {
+        "cases": 3498,
+        "answer_required": 368,
+        "refusal_required": 3130,
+        "answered": 3298,
+        "correct": 397,
+        "unsafe_accepts": 3101,
+        "false_refusals": 0,
+        "correct_answers": 197,
+        "correct_refusals": 200
+      },
+      "semantic": {
+        "cases": 3498,
+        "answer_required": 368,
+        "refusal_required": 3130,
+        "answered": 368,
+        "correct": 3498,
+        "unsafe_accepts": 0,
+        "false_refusals": 0,
+        "correct_answers": 368,
+        "correct_refusals": 3130
+      }
+    },
+    "by_fault": {
+      "ambiguous_source_context": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        }
+      },
+      "changed_source_accession": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        }
+      },
+      "changed_source_currency": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        }
+      },
+      "changed_source_duration": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        }
+      },
+      "changed_source_value": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        }
+      },
+      "clean": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 172,
+          "refusal_required": 0,
+          "answered": 172,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 172,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 172,
+          "refusal_required": 0,
+          "answered": 172,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 172,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 172,
+          "refusal_required": 0,
+          "answered": 172,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 172,
+          "correct_refusals": 0
+        }
+      },
+      "commuted_sum": {
+        "addressed": {
+          "cases": 16,
+          "answer_required": 16,
+          "refusal_required": 0,
+          "answered": 16,
+          "correct": 16,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 16,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 16,
+          "answer_required": 16,
+          "refusal_required": 0,
+          "answered": 16,
+          "correct": 16,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 16,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 16,
+          "answer_required": 16,
+          "refusal_required": 0,
+          "answered": 16,
+          "correct": 16,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 16,
+          "correct_refusals": 0
+        }
+      },
+      "double_percent_conversion": {
+        "addressed": {
+          "cases": 10,
+          "answer_required": 0,
+          "refusal_required": 10,
+          "answered": 10,
+          "correct": 0,
+          "unsafe_accepts": 10,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 10,
+          "answer_required": 0,
+          "refusal_required": 10,
+          "answered": 10,
+          "correct": 0,
+          "unsafe_accepts": 10,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 10,
+          "answer_required": 0,
+          "refusal_required": 10,
+          "answered": 0,
+          "correct": 10,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 10
+        }
+      },
+      "equivalent_growth": {
+        "addressed": {
+          "cases": 8,
+          "answer_required": 8,
+          "refusal_required": 0,
+          "answered": 8,
+          "correct": 8,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 8,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 8,
+          "answer_required": 8,
+          "refusal_required": 0,
+          "answered": 8,
+          "correct": 8,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 8,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 8,
+          "answer_required": 8,
+          "refusal_required": 0,
+          "answered": 8,
+          "correct": 8,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 8,
+          "correct_refusals": 0
+        }
+      },
+      "missing_range_member": {
+        "addressed": {
+          "cases": 16,
+          "answer_required": 0,
+          "refusal_required": 16,
+          "answered": 16,
+          "correct": 0,
+          "unsafe_accepts": 16,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 16,
+          "answer_required": 0,
+          "refusal_required": 16,
+          "answered": 16,
+          "correct": 0,
+          "unsafe_accepts": 16,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 16,
+          "answer_required": 0,
+          "refusal_required": 16,
+          "answered": 0,
+          "correct": 16,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 16
+        }
+      },
+      "missing_request_entity": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        }
+      },
+      "missing_request_measure": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        }
+      },
+      "missing_request_period": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        }
+      },
+      "reported_answer_error": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 172,
+          "refusal_required": 0,
+          "answered": 172,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 172,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 172,
+          "refusal_required": 0,
+          "answered": 172,
+          "correct": 1,
+          "unsafe_accepts": 171,
+          "false_refusals": 0,
+          "correct_answers": 1,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 172,
+          "refusal_required": 0,
+          "answered": 172,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 172,
+          "correct_refusals": 0
+        }
+      },
+      "request_extra_instruction": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        }
+      },
+      "request_quarter_not_annual": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        }
+      },
+      "unknown_reference": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        }
+      },
+      "unsupported_request_currency": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        }
+      },
+      "unsupported_request_operation": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        }
+      },
+      "wrong_entity": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        }
+      },
+      "wrong_formula": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        }
+      },
+      "wrong_growth_denominator": {
+        "addressed": {
+          "cases": 8,
+          "answer_required": 0,
+          "refusal_required": 8,
+          "answered": 8,
+          "correct": 0,
+          "unsafe_accepts": 8,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 8,
+          "answer_required": 0,
+          "refusal_required": 8,
+          "answered": 8,
+          "correct": 0,
+          "unsafe_accepts": 8,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 8,
+          "answer_required": 0,
+          "refusal_required": 8,
+          "answered": 0,
+          "correct": 8,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 8
+        }
+      },
+      "wrong_measure": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        }
+      },
+      "wrong_output_scale": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 172,
+          "correct": 0,
+          "unsafe_accepts": 172,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 0
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        }
+      },
+      "wrong_period": {
+        "addressed": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 144,
+          "correct": 28,
+          "unsafe_accepts": 144,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 28
+        },
+        "reported": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 144,
+          "correct": 28,
+          "unsafe_accepts": 144,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 28
+        },
+        "semantic": {
+          "cases": 172,
+          "answer_required": 0,
+          "refusal_required": 172,
+          "answered": 0,
+          "correct": 172,
+          "unsafe_accepts": 0,
+          "false_refusals": 0,
+          "correct_answers": 0,
+          "correct_refusals": 172
+        }
+      }
+    },
+    "planner_supported_requests": {
+      "requests": 172,
+      "answered": 172,
+      "correct_complete_answers": 172
+    },
+    "source": {
+      "issuers": 2,
+      "annual_contexts": 24,
+      "facts_sha256": "6ba6a23c5ad78c6280fc275acf37f23988e6d4d5164f5500a961650c206a17d8"
+    },
+    "counts": {
+      "challenge_cases": 3498,
+      "seed_requests": 172,
+      "fault_types": 25,
+      "cases_by_fault": {
+        "ambiguous_source_context": 172,
+        "changed_source_accession": 172,
+        "changed_source_currency": 172,
+        "changed_source_duration": 172,
+        "changed_source_value": 172,
+        "clean": 172,
+        "commuted_sum": 16,
+        "double_percent_conversion": 10,
+        "equivalent_growth": 8,
+        "missing_range_member": 16,
+        "missing_request_entity": 172,
+        "missing_request_measure": 172,
+        "missing_request_period": 172,
+        "reported_answer_error": 172,
+        "request_extra_instruction": 172,
+        "request_quarter_not_annual": 172,
+        "unknown_reference": 172,
+        "unsupported_request_currency": 172,
+        "unsupported_request_operation": 172,
+        "wrong_entity": 172,
+        "wrong_formula": 172,
+        "wrong_growth_denominator": 8,
+        "wrong_measure": 172,
+        "wrong_output_scale": 172,
+        "wrong_period": 172
+      }
+    },
+    "scope": "Constructed explicit-request/proposal fault suite; complete-answer checks against Fraction-derived source labels. No neural generation, held-out natural-language accuracy, external review or population confidence interval."
+  },
+  "artifact_sha256": {
+    "cases.json.gz": "06d14457db2ed466e874f60af17a3965a47f99ac9fa152b38d56a69d7f40a82c",
+    "scored_outputs.json.gz": "c48af64e931092c5d4d2f23ce69eaba7d0a24aa9e5ef933a602d75f97ddb338f",
+    "planner_outputs.json.gz": "4d9700c84b28ab57fd6a14b81a367ca036e1b0edaf86cb24e657e3016c93a1a5"
+  },
+  "protocol_sha256": "c3d3b19b16a82daaab6b4d6796b3ca7fece62e76127c60d7437911b6b0567e93",
+  "capture_sha256": "bd8986c7dca217325094006716d7de787172512073fb83d4a100e5270d803f87",
+  "runtime": {
+    "python": "3.12.14",
+    "inference": "none",
+    "api_cash_spend": 0,
+    "compute_cost": "not valued"
+  }
+}

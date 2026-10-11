@@ -1,0 +1,18 @@
+{
+  "entity": "0000789019",
+  "accession": "0000950170-25-100235",
+  "operation": "growth",
+  "operands": [
+    {
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "start": "2023-07-01",
+      "end": "2024-06-30"
+    },
+    {
+      "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "start": "2024-07-01",
+      "end": "2025-06-30"
+    }
+  ],
+  "output_unit": "percent"
+}
