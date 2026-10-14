@@ -1,8 +1,17 @@
-# Source rights and attribution
+# Licence scope, source rights and attribution
 
-This repository is publicly inspectable portfolio research. No project-wide open-source licence has been applied to its original project files. Public visibility does not itself grant a general right to redistribute or relicense them; GitHub's platform terms and any applicable per-file licences remain separate. See [GitHub's licensing guidance](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
+This project's original software and original documentation are licensed under
+the [MIT licence](LICENSE), Copyright (c) 2026 Prasanna K. This includes original
+Python source, tests, notebooks, workflows and dependency specification files.
 
-This notice records source boundaries. It grants no additional rights and does not replace an upstream licence.
+The original-code grant does not relicense third-party libraries, model weights,
+source reports, datasets, benchmark records or quoted source material. Existing
+per-file copyright notices, upstream licences and source-provider conditions
+continue to apply to that material. In a mixed file, the grant covers only the
+project's original contribution. Public accessibility is not a substitute for
+the applicable upstream terms, and no source-provider endorsement is implied.
+
+The source-specific boundaries below remain separate from the MIT code licence.
 
 ## Existing third-party material
 

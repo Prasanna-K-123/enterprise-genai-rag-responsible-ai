@@ -221,3 +221,11 @@ Because models and package versions can evolve, small numerical or wording diffe
 - claim-level citation mechanics;
 - manual grounding review;
 - error analysis and Responsible AI trade-offs.
+
+## Licence and source terms
+
+Original code and original project documentation are available under the
+[MIT licence](LICENSE). Third-party data, report excerpts, benchmark records and
+model weights retain their own terms; see [source rights and attribution](NOTICE.md).
+The code licence does not grant additional rights in those sources or establish
+professional, regulatory or production approval of the research.
